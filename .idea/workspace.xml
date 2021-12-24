@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c92b2d2d-562e-4e86-adb1-c49b5c91d0f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templatemo-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/new/home-s-1-min.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/new/home-s-1-min.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/css/templatemo-style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="407" column="51" selection-start-line="407" selection-start-column="51" selection-end-line="407" selection-end-column="51" />
+              <caret line="928" column="46" selection-start-line="928" selection-start-column="40" selection-end-line="928" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -59,6 +58,7 @@
       <find>team-image</find>
       <find>li</find>
       <find>home-</find>
+      <find>home-s</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,7 +168,7 @@
     <entry file="file://$PROJECT_DIR$/css/templatemo-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="407" column="51" selection-start-line="407" selection-start-column="51" selection-end-line="407" selection-end-column="51" />
+          <caret line="928" column="46" selection-start-line="928" selection-start-column="40" selection-end-line="928" selection-end-column="46" />
         </state>
       </provider>
     </entry>
