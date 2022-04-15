@@ -405,15 +405,15 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .slider .item-first {
-    background-image: url(../images/new/home-s-5.jpg);
-  }
-
-  .slider .item-second {
     background-image: url(../images/new/home-s-2.jpg);
   }
 
-  .slider .item-third {
+  .slider .item-second {
     background-image: url(../images/new/home-s-3.jpg);
+  }
+
+  .slider .item-third {
+    background-image: url(../images/new/home-s-5.jpg);
   }
 
   .slider .item-second .section-btn {
