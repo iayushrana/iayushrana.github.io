@@ -1,568 +1,2668 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<!-- saved from url=(0021)http://sniccy.com/ -->
+<html class="js audio canvas fullscreen svg video cssanimations boxshadow csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox csscalc no-flexboxtweener cssgradients csstransforms supports csstransforms3d csstransitions objectfit object-fit cssclippathsvg cssclippathinset cssclippathcircle cssclippathellipse cssclippathpolygon" lang="en-US" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- devices setting -->
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,width=device-width">
 
-     <title>Alpha Motors </title>
-<!-- 
+<!-- outputs by wp_head -->
+<title>Nix Store</title>
+<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Nix Store » Feed" href="http://sniccy.com/index.php/feed/">
+<link rel="alternate" type="application/rss+xml" title="Nix Store » Comments Feed" href="http://sniccy.com/index.php/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/34.93.249.214\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Nix Store_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="./Nix Store_files/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wc-block-style-css" href="./Nix Store_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="./Nix Store_files/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-layout-css" href="./Nix Store_files/woocommerce-layout.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="./Nix Store_files/woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="woocommerce-general-css" href="./Nix Store_files/woocommerce.css" type="text/css" media="all">
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="stylesheet" id="wp-ulike-css" href="./Nix Store_files/wp-ulike.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="./Nix Store_files/elementor-icons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-animations-css" href="./Nix Store_files/animations.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="./Nix Store_files/frontend.min.css" type="text/css" media="all">
+<style id="elementor-frontend-inline-css" type="text/css">
+/* Start custom CSS for aux_menu_box, class: .elementor-element-c63e02d */.elementor-68 .elementor-element.elementor-element-c63e02d .aux-item-content:after{
+    display: none!important;
+}
+.elementor-68 .elementor-element.elementor-element-c63e02d .current_page_item .aux-menu-label {
+    color:#000!important;
+}
+.elementor-68 .elementor-element.elementor-element-c63e02d .aux-burger.aux-lite-small .mid-line {
+    margin: 6.5px 0;
+}
+@media only screen and (max-width:767px) {
+    .elementor-68 .elementor-element.elementor-element-c63e02d .elementor-widget-container{
+    background-image: url('/wp-content/uploads/2019/10/Group_1270.svg');
+    min-width: 50px;
+    background-repeat: no-repeat;
+}
+}
+.elementor-68 .elementor-element.elementor-element-c63e02d .aux-burger .mid-line, .elementor-68 .elementor-element.elementor-element-c63e02d .aux-burger:before, .elementor-68 .elementor-element.elementor-element-c63e02d .aux-burger:after{
+    opacity: 0;
+}
+.elementor-68 .elementor-element.elementor-element-c63e02d .aux-fs-popup .aux-panel-close {top: 66px;
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-2aef2d6 */@media only screen and (max-width:766px) {
+.elementor-68 .elementor-element.elementor-element-2aef2d6 {
+  order: 1;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_shopping_cart, class: .elementor-element-0d60e71 */.elementor-68 .elementor-element.elementor-element-0d60e71 .aux-cart-wrapper .aux-cart-contents span{
+    padding: 3px 5px;
+    right: 2px;
+    bottom: -1px;
+}
+.elementor-68 .elementor-element.elementor-element-0d60e71 .auxicon-handbag:before{
+content: "";
 
-Eatery Cafe Template 
+}
+.elementor-68 .elementor-element.elementor-element-0d60e71 .aux-cart-contents{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19.787' height='24.771' viewBox='0 0 19.787 24.771'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23252525;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M68.337,21.469,66.912,5.4a.611.611,0,0,0-.615-.559h-3a4.849,4.849,0,0,0-9.7,0h-3a.618.618,0,0,0-.615.559L48.55,21.469v.056a3.48,3.48,0,0,0,3.665,3.246H64.672a3.48,3.48,0,0,0,3.665-3.246ZM58.443,1.231a3.624,3.624,0,0,1,3.619,3.615H54.824A3.624,3.624,0,0,1,58.443,1.231Zm6.228,22.3H52.215a2.261,2.261,0,0,1-2.435-1.989l1.374-15.47h2.44v.593a.615.615,0,1,0,1.23,0V6.076h7.238v.593a.615.615,0,1,0,1.23,0V6.076h2.44l1.374,15.475A2.261,2.261,0,0,1,64.672,23.535Z' transform='translate(-48.55 0)'/%3E%3C/svg%3E");
+       background-size: 19px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 25px;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-d9f9b02 */@media only screen and (max-width:767px) {
+.elementor-68 .elementor-element.elementor-element-d9f9b02 .elementor-row{
+  display: flex;
+   flex-direction: row;
+}
+    
+}/* End custom CSS */
+/* Start custom CSS for aux_modern_heading, class: .elementor-element-c657f87 */@media only screen and (max-width:1261px)and (min-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-c657f87 .aux-modern-heading-secondary{
+    font-size: 60px;
+    line-height: 86px;
+}
+}
+@media only screen and (max-width:1679px)and (min-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-c657f87 .aux-modern-heading-description{
+  font-size: 12vw;
+}
+}
+@media only screen and (max-width:632px){
+.elementor-211 .elementor-element.elementor-element-c657f87 .aux-modern-heading-description{
+  margin-top:20px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_image, class: .elementor-element-0b763ef */@media only screen and (max-width:1407px)and (min-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-0b763ef{
+    right: -29px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_button, class: .elementor-element-bbd5e6c */@media only screen and (max-width:1378px)and (min-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-bbd5e6c{
+   bottom: 17%;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_modern_heading, class: .elementor-element-d57e8a3 */@media only screen and (max-width:1694px)and (min-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-d57e8a3{
+   right: 7%;
+   bottom: 4%;
+}
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-df6f8d5 */.elementor-211 .elementor-element.elementor-element-df6f8d5:hover {
+        box-shadow: 0 10px 50px rgba(178,178,178,0.26)!important;
+    transition: all 400ms ease-in-out 70ms;
+    border-radius: 20px;
+}
+.elementor-211 .elementor-element.elementor-element-df6f8d5{
+    border-radius: 25px;
+        transition: all 400ms ease-in-out 70ms;
+}/* End custom CSS */
+/* Start custom CSS for aux_image, class: .elementor-element-d063c52 */@media only screen and (max-width:1346px)and (min-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-d063c52{
+     right: -2px;
+    min-width: 242px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_modern_heading, class: .elementor-element-99a04a4 */@media screen and (max-width: 1617px) and (min-width: 1399px) {
+    .elementor-211 .elementor-element.elementor-element-99a04a4 .aux-modern-heading-description p{
+    font-size: 44px;
+}
+}
+@media screen and (max-width: 1399px) and (min-width: 1025px) {
+.elementor-211 .elementor-element.elementor-element-99a04a4 .aux-modern-heading-description p{
+   font-size: 3.1vw;
+    margin-top: -11px;
+    padding-bottom: 8px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_button, class: .elementor-element-4d7e578 */.elementor-211 .elementor-element.elementor-element-4d7e578 .aux-button:hover .aux-text{
+    color: #000;
+    
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-d75798f */.elementor-211 .elementor-element.elementor-element-d75798f:hover .elementor-column-wrap{
+    box-shadow: 0 20px 40px 0 rgba(178,178,178,0.86)!important;
+     transition: all 400ms ease-in-out 70ms;
+}
+.elementor-211 .elementor-element.elementor-element-d75798f .elementor-column-wrap{
+        transition: all 400ms ease-in-out 70ms;
+        border-radius:25px; 
+}/* End custom CSS */
+/* Start custom CSS for aux_modern_heading, class: .elementor-element-dd9b347 */@media screen and (max-width: 1399px) and (min-width: 1025px) {
+.elementor-211 .elementor-element.elementor-element-dd9b347 .aux-modern-heading-description p{
+    font-size: 3.1vw;
+    margin-top: -11px;
+    padding-bottom: 8px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_button, class: .elementor-element-2a2e580 */.elementor-211 .elementor-element.elementor-element-2a2e580 .aux-button:hover .aux-text{
+    color: #fff!important;
+    
+}
+@media screen and (max-width: 1289px) and (min-width: 1025px) {
+.elementor-211 .elementor-element.elementor-element-2a2e580{
+    margin-bottom: 10px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_image, class: .elementor-element-b99926e */@media only screen and (max-width:1515px)and (min-width:1346px) {
+.elementor-211 .elementor-element.elementor-element-b99926e{
+  top: 2%;
+  right: -111px;
+  min-width: 393px;
+}
+}
+@media only screen and (max-width:1346px)and (min-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-b99926e{
+  min-width: 287px;
+  right: -81px;
+}
+}
+@media only screen and (max-width:443px) {
+.elementor-211 .elementor-element.elementor-element-b99926e{
+  min-width: 287px;
+  top: -29px;
+}
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-f71208d */.elementor-211 .elementor-element.elementor-element-f71208d:hover .elementor-column-wrap{
+        box-shadow: 0px 20px 40px 0px #ffe399;
+}/* End custom CSS */
+/* Start custom CSS for aux_image, class: .elementor-element-598eb82 */@media only screen and (max-width:443px) {
+.elementor-211 .elementor-element.elementor-element-598eb82{
+ bottom: -28px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_modern_heading, class: .elementor-element-216679c */@media screen and (max-width: 1399px) and (min-width: 1025px) {
+.elementor-211 .elementor-element.elementor-element-216679c .aux-modern-heading-description p{
+    font-size: 47px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_button, class: .elementor-element-36ed994 */.elementor-211 .elementor-element.elementor-element-36ed994 .aux-button:hover .aux-text{
+    color: #fff!important;
+    
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-b3ca156 */.elementor-211 .elementor-element.elementor-element-b3ca156:hover .elementor-column-wrap{
+        box-shadow: 0px 20px 40px 0px rgba(244,44,55,.37);
+}/* End custom CSS */
+/* Start custom CSS for aux_modern_heading, class: .elementor-element-3ae6d37 */@media screen and (max-width: 1399px) and (min-width: 1025px) {
+.elementor-211 .elementor-element.elementor-element-3ae6d37 .aux-modern-heading-description p{
+    font-size: 47px;
+    margin-bottom:57px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_image, class: .elementor-element-ccf9bda */@media only screen and (max-width:1368px)and (min-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-ccf9bda{
+        right: -17px;
+    bottom: -54px;
+    min-width: 202px;
+    max-width: 254px;
+}
+}
+@media (max-width: 459px){
+.elementor-211 .elementor-element.elementor-element-ccf9bda{
+    max-width: 50%!important;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_button, class: .elementor-element-b37a073 */.elementor-211 .elementor-element.elementor-element-b37a073 .aux-button:hover .aux-text{
+    color: #fff!important;
+    
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-832668c */.elementor-211 .elementor-element.elementor-element-832668c:hover .elementor-column-wrap{
+    box-shadow: 0px 20px 40px 0px rgba(239,239,239,0.92);
+}/* End custom CSS */
+/* Start custom CSS for aux_modern_heading, class: .elementor-element-ede461f */@media screen and (max-width: 1399px) and (min-width: 1025px) {
+.elementor-211 .elementor-element.elementor-element-ede461f .aux-modern-heading-description p{
+    font-size: 40px;
+    margin-top: -8px;
+    margin-bottom: 44px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_button, class: .elementor-element-d036b77 */.elementor-211 .elementor-element.elementor-element-d036b77 .aux-button:hover .aux-text{
+    color: #fff!important;
+    
+}/* End custom CSS */
+/* Start custom CSS for aux_image, class: .elementor-element-c8ef2b8 */@media only screen and (max-width:1368px)and (min-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-c8ef2b8{
+right: -61px;
+    bottom: 0px;
+    min-width: 323px;
+}
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-aa13740 */.elementor-211 .elementor-element.elementor-element-aa13740:hover .elementor-column-wrap{
+    box-shadow: 0px 20px 40px 0px rgba(45,208,111,0.58);
+}
+.elementor-211 .elementor-element.elementor-element-aa13740 .elementor-column-wrap {
+    overflow: hidden;
+}/* End custom CSS */
+/* Start custom CSS for aux_modern_heading, class: .elementor-element-1d49a45 */@media screen and (max-width: 1399px) and (min-width: 1025px) {
+.elementor-211 .elementor-element.elementor-element-1d49a45 .aux-modern-heading-description p{
+    font-size: 40px;
+    margin-top: -8px;
+    margin-bottom: 44px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_button, class: .elementor-element-54ae685 */.elementor-211 .elementor-element.elementor-element-54ae685 .aux-button:hover .aux-text{
+    color: #fff!important;
+    
+}/* End custom CSS */
+/* Start custom CSS for aux_image, class: .elementor-element-e341da3 */@media only screen and (max-width:1368px)and (min-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-e341da3{
+    right: -61px;
+    bottom: -35px;
+    min-width: 271px;
+}
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-562ad8f */.elementor-211 .elementor-element.elementor-element-562ad8f:hover .elementor-column-wrap{
+    box-shadow: 0px 20px 40px 0px rgba(24,145,255,0.65);
+}
+.elementor-211 .elementor-element.elementor-element-562ad8f .elementor-column-wrap {
+    overflow: hidden;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-859dbb7 */@media only screen and (max-width: 1025px) {
+.elementor-211 .elementor-element.elementor-element-859dbb7 .aux-widget-text .aux-ico-pos-left{
+    flex-direction: column;
+}
+}
+@media only screen and (max-width:1113px)and (min-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-859dbb7 .col-title{
+    font-size: 14px;
+}
+.elementor-211 .elementor-element.elementor-element-859dbb7 .col-subtitle{
+   font-size: 12px;
+}
+}
+.elementor-211 .elementor-element.elementor-element-859dbb7 .aux-widget-advanced-text{
+    justify-content: center;
+}/* End custom CSS */
+/* Start custom CSS for aux_image, class: .elementor-element-a4a5c03 */@media screen and (max-width: 1368px) and (min-width: 1025px) {
+.elementor-211 .elementor-element.elementor-element-a4a5c03{
+    max-width: 1000px;
+    left: -22px;
+    bottom: -108px;
+}
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-503f9fd */@media screen and (max-width: 1617px) and (min-width: 1025px) {
+  .elementor-211 .elementor-element.elementor-element-503f9fd .elementor-element-populated{
+ padding: 9% 4% 5% 9%;
+}
+.elementor-211 .elementor-element.elementor-element-503f9fd .aux-modern-heading-secondary{
+    font-size: 96px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_button, class: .elementor-element-16e284d */.elementor-211 .elementor-element.elementor-element-16e284d .aux-button:hover .aux-text{
+    color: #fff!important;
+    
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-a076a51 */.elementor-211 .elementor-element.elementor-element-a076a51 .elementor-container:hover .elementor-section-boxed{
+     box-shadow: 0px 20px 40px 0px rgba(244,44,55,.37);
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for aux_recent_product, class: .elementor-element-d6ed5a3 */.elementor-211 .elementor-element.elementor-element-d6ed5a3 .woocommerce-Price-amount, .elementor-211 .elementor-element.elementor-element-d6ed5a3 .aux-recent-product-item .price ins{
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    float: inherit;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .woocommerce-loop-product__title{
+    margin-top: 19px;
+    transition: all .2s cubic-bezier(0.4, 0, 0.2, 1) 70ms;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .product-type-simple:hover .woocommerce-loop-product__title{
+   color: #F42C37!important;
+   font-weight: bold!important;
+   transition:all .2s cubic-bezier(0.4, 0, 0.2, 1) 70ms;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .product-type-simple:hover .price{
+   transform: translateX(calc(33% + 30px));
+   transition: transform 1.2s cubic-bezier(.19,1,.22,1) 70ms;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .price{
+   transition: transform 1.2s cubic-bezier(.19,1,.22,1) 70ms;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .aux-recent-product-item .price ins{
+   padding-left: 12px;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3  .aux-recent-product-item .price del .woocommerce-Price-amount, .elementor-211 .elementor-element.elementor-element-d6ed5a3  .aux-recent-product-item .price del{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    color: #CFCFCF;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .aux-widget-recent-products .aux-recent-product-item .button{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    padding: 8px 25px;
+    background-color: #F42C37;
+    letter-spacing: -1px;
+    line-height: 19px; 
+    position: absolute;
+    bottom: -7px;
+    left: -135px;
+    transition: transform 1.2s cubic-bezier(.19,1,.22,1) 70ms;
 
-http://www.templatemo.com/tm-515-eatery
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .product-type-simple{
+    position: relative;
+    overflow: hidden;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .product-type-simple:hover  .button {
+    transform: translateX(calc(84% + 30px));
+    transition: transform 1.2s cubic-bezier(.19,1,.22,1) 70ms;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .aux-widget-recent-products .aux-recent-product-item .onsale{
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 47px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    z-index: 1;
+    left: 4%;
+    background: #F42C37;
+    width: 48px;
+    height: 48px;
+    right: auto;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3  .aux-col {
+    padding-right: 26px;
+    padding-bottom: 25px;
+     
+ }
+@media only screen and (max-width:1025px) {
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .product-type-simple:hover .price{
+    transform: translateX(calc(11% + 100px));
+}
+}
+@media only screen and (max-width:1384px)and (min-width:992px) {
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .product-type-simple:hover .price{
+    transform: none;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .product-type-simple .price{
+    padding-bottom: 37px;
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .aux-widget-recent-products .aux-recent-product-item .button{
+    bottom: -11px!important;
+    left: -135px;
+   
+}
+}
+@media only screen and (max-width:767px)and (min-width:526px) {
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .aux-col{
+    padding-right: 20%;
+    padding-left: 19%; 
+    }
+}
+.elementor-211 .elementor-element.elementor-element-d6ed5a3 .aux-star-rating{
+    display: none;
+}/* End custom CSS */
+/* Start custom CSS for aux_image, class: .elementor-element-0a3b14f */@media screen and (max-width: 1368px) and (min-width: 1025px) {
+.elementor-211 .elementor-element.elementor-element-0a3b14f{
+       max-width: 63%;
+    left: 102px;
+    bottom: -82px;
+}
+}
+@media screen and (max-width: 767px) {
+.elementor-211 .elementor-element.elementor-element-0a3b14f, .elementor-211 .elementor-element.elementor-element-0a3b14f .aux-media-image{
+    margin: auto!important;
+}
+}
 
--->
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="Be the part of revolution with Alpha.">
-     <meta name="keywords" content="Alpha Motors, aLpha, India">
-     <meta name="author" content="alpha">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="shortcut icon" type="image/png" href="images/new/icon.png" >
+@media screen and (max-width:567px) {
+.elementor-211 .elementor-element.elementor-element-0a3b14f{
+    bottom: 75%;
+}
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-f2c4e6a */@media screen and (max-width: 1617px) and (min-width: 1025px) {
+  .elementor-211 .elementor-element.elementor-element-f2c4e6a .elementor-element-populated{
+ padding: 9% 4% 5% 9%;
+}
+.elementor-211 .elementor-element.elementor-element-f2c4e6a .aux-modern-heading-secondary{
+    font-size: 96px;
+    max-width:250px;
+}
+}/* End custom CSS */
+/* Start custom CSS for aux_button, class: .elementor-element-44b21d1 */.elementor-211 .elementor-element.elementor-element-44b21d1 .aux-button:hover .aux-text{
+    color: #fff!important;
+    
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-a79bffa */.elementor-211 .elementor-element.elementor-element-a79bffa .elementor-container:hover .elementor-section-boxed{
+    box-shadow: 0px 20px 40px 0px rgba(81,236,144,0.37);
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for aux_recent_posts, class: .elementor-element-345c2e5 */.elementor-211 .elementor-element.elementor-element-345c2e5 .entry-content p{
+max-width: 369px;
+}
+.elementor-211 .elementor-element.elementor-element-345c2e5 .aux-col:hover .entry-media{
+ box-shadow: 0 10px 50px rgba(178,178,178,0.76)!important;
+ transition: all 400ms ease-in-out 70ms;
+ border-radius: 20px;
+}
+.elementor-211 .elementor-element.elementor-element-345c2e5 .entry-media{
+ border-radius: 20px;
+ transition: all 400ms ease-in-out 70ms;
+}/* End custom CSS */
+</style>
+<link rel="stylesheet" id="auxin-elementor-widgets-css" href="./Nix Store_files/elementor-widgets.css" type="text/css" media="all">
+<link rel="stylesheet" id="mediaelement-css" href="./Nix Store_files/mediaelementplayer-legacy.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="./Nix Store_files/wp-mediaelement.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-68-css" href="./Nix Store_files/post-68.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-211-css" href="./Nix Store_files/post-211.css" type="text/css" media="all">
+<link rel="stylesheet" id="auxin-base-css" href="./Nix Store_files/base.css" type="text/css" media="all">
+<link rel="stylesheet" id="auxin-front-icon-css" href="./Nix Store_files/auxin-icon.css" type="text/css" media="all">
+<link rel="stylesheet" id="auxin-main-css" href="./Nix Store_files/main.css" type="text/css" media="all">
+<link rel="stylesheet" id="auxin-third-party-css" href="./Nix Store_files/third-party.css" type="text/css" media="all">
+<link rel="stylesheet" id="auxin-fonts-google-css" href="./Nix Store_files/css" type="text/css" media="all">
+<link rel="stylesheet" id="auxin-custom-css" href="./Nix Store_files/custom.css" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="./Nix Store_files/css(1)" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-1-css" href="./Nix Store_files/auxin-icon(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-auxicon-css" href="./Nix Store_files/auxin-icon(1).css" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var auxin = {"ajax_url":"http:\/\/34.93.249.214\/wp-admin\/admin-ajax.php","is_rtl":"","is_reponsive":"1","is_framed":"","frame_width":"20","wpml_lang":"en","uploadbaseurl":"http:\/\/34.93.249.214\/wp-content\/uploads"};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* < ![CDATA[ */
+function auxinNS(n){for(var e=n.split("."),a=window,i="",r=e.length,t=0;r>t;t++)"window"!=e[t]&&(i=e[t],a[i]=a[i]||{},a=a[i]);return a;}
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Nix Store_files/jquery.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/jquery-migrate.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/modernizr-custom.min.js.download"></script>
+<link rel="https://api.w.org/" href="http://sniccy.com/index.php/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sniccy.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://sniccy.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.4">
+<meta name="generator" content="WooCommerce 4.0.1">
+<link rel="canonical" href="http://sniccy.com/">
+<link rel="shortlink" href="http://sniccy.com/">
+<link rel="alternate" type="application/json+oembed" href="http://sniccy.com/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F34.93.249.214%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://sniccy.com/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F34.93.249.214%2F&amp;format=xml">
+    <meta name="title" content="Home">
+    <meta name="description" content="Beats Solo Wireless headphone Shop By Category Description There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration Enjoy With EARPHONE Browse New Wear GADGETS Browse Trend Devices LAPTOP Browse Best Gaming CONSOLE Browse Play Game oculus Browse New Amazon speaker Browse Free Shipping Free Shipping On All Order Money […]">
+    <!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#1bb0ce">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#1bb0ce">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/font-awesome.min.css">
-     <link rel="stylesheet" href="css/animate.css">
-     <link rel="stylesheet" href="css/owl.carousel.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-     <link rel="stylesheet" href="css/magnific-popup.css">
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="http://sniccy.com/wp-content/uploads/2020/04/cropped-nixstore-32x32.png" sizes="32x32">
+<link rel="icon" href="http://sniccy.com/wp-content/uploads/2020/04/cropped-nixstore-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="http://sniccy.com/wp-content/uploads/2020/04/cropped-nixstore-180x180.png">
+<meta name="msapplication-TileImage" content="http://sniccy.com/wp-content/uploads/2020/04/cropped-nixstore-270x270.png">
+		<style type="text/css" id="wp-custom-css">
+			/* Shop Page  */
+.post-type-archive .page-title-section  .page-header .aux-container{
+   text-align: center;
+}
+@media screen and (max-width: 503px){
+.post-type-archive .aux-main .aux-wrapper .aux-container .aux-primary .content .products .product, .single-product .aux-main .aux-wrapper .aux-container .aux-primary .content .products .product{
+    width: 100%;
+}
+}
 
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/templatemo-style.css">
+.page-title-section .aux-breadcrumbs{
+	 margin-bottom:10px;
+}
+.page-title-section .page-header{
+	 border-bottom:none;
+background: rgb(226,226,226);
+background: linear-gradient(94deg, rgba(226,226,226,1) 52%, rgba(245,245,245,1) 89%);
+}
 
-</head>
-<body>
+.aux-shop-archive .aux-sidebar .sidebar-inner .sidebar-content .searchform input[type="text"]{
+   background: rgb(226,226,226);
+background: linear-gradient(94deg, rgba(226,226,226,1) 52%, rgba(245,245,245,1) 89%);
+   border-radius: 30px;
+   border: none;	
+	 position:relative;
+	 max-width:100%;
+		padding:20px 28px;
+	
+}
+.searchform input[type="text"]::-moz-placeholder{
+	 font-weight:400;
+	 line-height:19px;	 
+	 font-size:16px;
+  color:rgba(0,0,0,0.40)!important;
 
-     <!-- PRE LOADER -->
-     <section class="preloader">
-          <div class="spinner">
+}
+.searchform input[type="text"]::-webkit-input-placeholder{
+	 font-weight:400;
+	 line-height:19px;	 
+	 font-size:16px;
+  color:rgba(0,0,0,0.40)!important;
+}
+.aux-sidebar-style-border.left-sidebar .aux-sidebar-primary{
+	 border:none;
+	 margin-top: 20px;
+		
+}
+.aux-shop-archive .aux-sidebar .sidebar-inner .sidebar-content .searchform:after{
+	 content: "\e1d0";
+   font-size: 20px;
+   position: absolute;
+   font-family: "auxin-front" !important;
+   font-style: normal !important;
+   font-weight: normal !important;
+   font-variant: normal !important;
+   text-transform: none !important;
+   speak: none;
+   line-height: 1;
+    -webkit-font-smoothing: antialiased;
+   right: 36px;
+   top: 57px;
+   background-color: #F42C37;
+   color: #fff;
+   padding: 12px;
+   border-radius: 25px;
+	 box-shadow: 0 5px 25px rgba(244,44,55,0.40);
+}
+.aux-shop-archive .aux-wrapper .aux-container .aux-primary .woocommerce-ordering .orderby{
+   background-color:#000;
+   border-radius: 38px;
+   border: none;
+	 padding: 16px 0px 16px 29px;
+}
+@media (max-width: 498px){
+.aux-shop-archive .aux-wrapper .aux-container .aux-primary .woocommerce-ordering .orderby {
+      font-size: 12px;
+}.aux-shop-archive .aux-wrapper .aux-container .aux-primary .woocommerce-result-count{
+font-weight: 400;
+}
+	.aux-shop-archive .aux-wrapper .aux-container .aux-primary .woocommerce-ordering:after{
+left: 193px;
+    right: auto;
+}
+.aux-shop-archive .aux-wrapper .aux-container .aux-primary .woocommerce-ordering{
+    width: 100%;
+    margin: 0!important;
+    margin-bottom: 28px!important;
+}
+}
+.widget-container.aux-toggle-widget.aux-open .widget-title:after{
+    top: 11px!important;
+   transform: rotate(-90deg)!important;
+}
+.aux-shop-archive .aux-wrapper .aux-container .aux-primary .woocommerce-ordering .orderby{
+   font-family: Montserrat;
+   font-size: 15px;
+   font-weight: 500;
+   color: #fff;
+	 background-image:none!important;
 
-               <span class="spinner-rotate"></span>
-               
-          </div>
-     </section>
+}
+.aux-shop-archive .aux-wrapper .aux-container .aux-primary .woocommerce-ordering{
+	 position:relative;
+	 margin-top: -38px;
+   margin-bottom: 55px;
+}
+.aux-shop-archive .aux-wrapper .aux-container .aux-primary .woocommerce-ordering:after{
+left: 193px;
+    right: auto;
+}
+.aux-shop-archive .aux-wrapper .aux-container .aux-primary .woocommerce-ordering:after{
+   content: "\e1e9"!important;
+   color: #fff;
+   position: absolute;
+   right: 20px;
+   top: 21px;
+   font-size: 12px;
+   font-family: "auxin-front" !important;
+   font-style: normal !important;
+   font-weight: normal !important;
+   font-variant: normal !important;
+   text-transform: none !important;
+   speak: none;
+   line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.aux-shop-archive .aux-wrapper .aux-container .aux-primary .woocommerce-result-count{
+padding-top: 9px;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 23px;
+   color: #000000;
+}
+.aux-shop-archive .products .product-type-simple .woocommerce-loop-product__title {
+   font-size: 17px;
+   font-weight: 400;
+   line-height: 23px;
+   color: #000000;
+	 padding-top: 4px;
+	 letter-spacing:-0.51px;
+	 transition: all .2s cubic-bezier(.4,0,.2,1) 70ms;
+}
+.aux-shop-archive .product:hover   .woocommerce-loop-product__title{
+	 color:#F42C37!important;
+	 font-weight:bold;
+	 transition: all .2s cubic-bezier(.4,0,.2,1) 70ms;
+}
+.aux-shop-archive .products .product .price ins .woocommerce-Price-amount, .aux-shop-archive .products .product .price  .woocommerce-Price-amount {
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 24px;
+   color: #000000;
+	 letter-spacing:-0.6px;
+}
+.aux-shop-archive .products .product .price del .woocommerce-Price-amount, .woocommerce ul.products li.product .price{
+	 font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+   color: #CFCFCF;
+	 letter-spacing:-0.48px;	  
+	 transition: transform 1.2s cubic-bezier(.19,1,.22,1) 70ms;	 
+}
+.aux-shop-archive .products .product .price .woocommerce-Price-amount .woocommerce-Price-currencySymbol{
+	 padding-right: 5px;
+}
+.aux-shop-archive .products .product .price{
+	 padding-top:7px;
+}
+.aux-shop-archive a.button, .aux-shop-archive a.button:hover{
+   background-color: #F42C37;
+   border-radius: 25px;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 19px;
+   color: #fff;
+   letter-spacing: -0.45px;
+   text-transform: capitalize;
+   padding: 9px 25px;
+}
+.aux-shop-archive a.button{
+   position: absolute;
+   bottom: 0;
+   left: -158px;
+}
+.aux-shop-archive .product:hover  .price{
+   transform: translateX(calc(34% + 30px));
+   transition: transform 1.2s cubic-bezier(.19,1,.22,1) 70ms;
+}
+.aux-shop-archive .product-type-simple:hover  .button {
+   transform: translateX(calc(97% + 30px));
+   transition: transform 1.2s cubic-bezier(.19,1,.22,1) 70ms;
+}
+.aux-shop-archive .aux-wrapper .aux-container .product{	
+   position: relative;
+   overflow: hidden;
+}
+.aux-shop-archive .aux-wrapper .aux-container .aux-primary .content .product img {
+   border-radius: 20px;
+}
+.aux-shop-archive ul.products li.product .onsale{
+   top: 21px;
+   right: auto;
+   left: 16px;
+   width: 48px;
+   background-color: #F42C37;
+   font-size: 13px;
+   font-weight: bold;
+}
+.aux-shop-archive .aux-sidebar .sidebar-inner .widget_product_categories .product-categories .cat-item a{
+	 font-size: 16px;
+   font-weight: 400;
+   line-height: 23px;
+   color: rgba(0,0,0,0.60);
+	 letter-spacing:-0.48px;	
+	 text-decoration: none;
+	 transition: all .2s cubic-bezier(.4,0,.2,1) 70ms;
+	  margin-left: 43px;
+}
+.aux-shop-archive .aux-sidebar .sidebar-inner .widget_product_categories .product-categories .cat-item a:hover, .aux-shop-archive .aux-sidebar .sidebar-inner .widget_product_categories .product-categories .current-cat a{
+	 color:#F42C37;
+	 font-weight:bold;
+	 transition: all .2s cubic-bezier(.4,0,.2,1) 70ms;
+}
+@media screen and (max-width: 479px){
+.aux-resp .widget-title {
+    text-align: left;
+}
+}
+.aux-shop-archive .aux-sidebar .sidebar-inner .widget_product_categories .product-categories .cat-item{
+	 margin-top:10px;
+}
+.aux-shop-archive .aux-sidebar .widget-title{
+	 border-bottom:none;
+	 margin-bottom: 0;
+}
+.widget-container.aux-toggle-widget .widget-title:after{
+   content: "\e1e9"!important;
+   color: #000;
+   font-size: 18px;
+	 right: 12px;
+   font-family: "auxin-front" !important;
+   font-style: normal !important;
+   font-weight: normal !important;
+   font-variant: normal !important;
+   text-transform: none !important;
+  speak: none;
+  line-height: 1;
+    -webkit-font-smoothing: antialiased;
+	background-image:none;
+}
+.aux-shop-archive .price_slider_wrapper{
+	padding-top: 14px;
+}
+.aux-shop-archive  .widget_price_filter .ui-slider .ui-slider-range{
+	background-color:#F42C37;
+	height: 5px;
+}
+.aux-shop-archive .widget_price_filter .price_slider_wrapper .ui-widget-content{
+	 background-color: #F3F3F3;	
+		height: 4px;
+}
+.aux-shop-archive .widget_price_filter .ui-slider .ui-slider-handle:nth-child(3){
+	background-color:#F42C37;	
+}
+.aux-shop-archive .widget_price_filter .ui-slider .ui-slider-handle:nth-child(2){
+	background-color:#000;	
+}
+.aux-shop-archive .widget_price_filter .price_slider_amount .button{
+    width: 100%;
+    background-color: #000000;
+    padding: 16px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.48px;
+	  margin-top: 40px;
+}
+.aux-shop-archive  .price_slider_amount{
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column-reverse;
+	margin-top:-10px;
+}
+.aux-shop-archive  .price_label{
+	color:#fff;
+}
+.aux-shop-archive  .price_label span{
+	color:#000000;
+	font-size:15px;
+	font-weight:500;
+	line-height:19px;
+	letter-spacing:-0.45px;
+}
+.aux-shop-archive .price_label .from{
+    float: left;	
+}
+.aux-shop-archive .aux-sidebar-primary{   
+  width:30%;
+}
+.aux-shop-archive .aux-wrapper .aux-primary{
+	width: 92%;
+}
+.left-sidebar .aux-primary{
+	padding-left: 4px;
+}
+@media screen and (max-width: 1382px){
+.aux-shop-archive .aux-sidebar-primary{
+  width: 34%;
+}
+}
+@media screen and (max-width: 1171px){
+.aux-shop-archive .aux-sidebar-primary{
+   width: 40%;
+}
+	}
+@media screen and (max-width: 862px){
+.aux-shop-archive .aux-sidebar-primary{
+   width: 47%;
+}
+}
+@media screen and (max-width: 1004px){
+	.aux-shop-archive .widget-title{
+	 font-size:16px!important;
+		}
+}
+@media screen and (max-width: 767px){
+.aux-shop-archive .aux-wrapper .aux-primary{
+   width: 100%;
+}
+.aux-shop-archive .aux-sidebar .sidebar-inner .sidebar-content .searchform:after{
+   right: 8px;
+   top: 87px;
+}
+}
+@media screen and (max-width: 1004px)and (min-width: 767px){
+.aux-shop-archive .products .product-type-simple .woocommerce-loop-product__title{
+		font-size:13px!important;
+	}
+}
+.aux-shop-archive .widget_price_filter{
+	 margin-top: 32px;
+   border-top: 1px solid #CFCFCF;
+	 padding-top: 39px;
+}
+@media screen and (max-width: 1474px) and (min-width: 1336px){
+.aux-shop-archive .product:hover .price{
+   transform: translateX(calc(40% + 30px));
+}
+}
+@media screen and (max-width: 1336px) {
+.aux-shop-archive a.button, .single-product a.button{
+   position: relative;
+}
+.aux-shop-archive ul.products li.product .price{
+   transform: none;
+   transition: none;
+}
+.aux-shop-archive a.button{
+   font-size: 12px;
+}
+.aux-shop-archive .product-type-simple:hover .button{
+    transform: translateX(calc(100% + 48px));
+}
+.aux-shop-archive .products .product .price del .woocommerce-Price-amount, .woocommerce ul.products li.product .price{
+    font-size: 14px;
+}
+.aux-shop-archive .products .product .price ins .woocommerce-Price-amount, .aux-shop-archive .products .product .price .woocommerce-Price-amount{
+    font-size: 18px;
+}
+.aux-shop-archive .aux-wrapper .aux-container .product{
+    margin-bottom: 14px;
+}
+.aux-shop-archive .widget_price_filter{
+	 margin-top: 5px;
+	 padding-top: 26px;
+}
+}
+.aux-shop-archive .woocommerce-pagination .page-numbers .current{
+  color: #fff;
+	font-weight:700;
+	font-size:18px;
+	padding: 10px 12px;
+  border-radius: 9px;
+background: rgb(244,44,55);
+background: -moz-linear-gradient(356deg, rgba(244,44,55,1) 40%, rgba(220,40,50,1) 73%);
+background: -webkit-linear-gradient(356deg, rgba(244,44,55,1) 40%, rgba(220,40,50,1) 73%);
+background: linear-gradient(356deg, rgba(244,44,55,1) 40%, rgba(220,40,50,1) 73%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f42c37",endColorstr="#dc2832",GradientType=1);
+    border-color: #F42C37;
+}
+.aux-shop-archive .woocommerce-pagination .page-numbers li a{
+	font-weight:700;
+	font-size:18px;
+	color:#000;
+}
+.aux-shop-archive .woocommerce-pagination{
+  text-align: left!important;	
+}
+.aux-shop-archive  .page-numbers, .aux-shop-archive .woocommerce-pagination ul li{
+	border:none!important;
+	margin-right: 11px!important;
+}
+
+.aux-shop-archive .aux-wrapper .aux-container .aux-primary .content{
+padding-bottom: 90px;
+}
+/* Single Post */
+.single-post .aux-wrapper .aux-container .aux-primary{
+	padding-top:64px;
+}
+.single-post .content .aux-medium-context  .entry-main .entry-header{
+	display:none;
+}
+.single-post  .aux-wrapper .aux-medium-context .entry-media .aux-media-image img{
+    border-radius: 20px;
+}
+.single-post .aux-container .aux-primary .content .aux-medium-context .entry-main .entry-info  .entry-author .meta-sep{
+	color:#000;
+}
+.single-post .content .aux-medium-context .entry-media{
+	margin-bottom: 35px;
+}
+.single-post textarea{
+	 background-color: #EFEFEF;
+   border: none;
+   border-radius: 25px;
+   padding: 29px 0 28px 39px!important;
+	margin-top:25px;
+	
+}
+.single-post input[type=email], .single-post .aux-wrapper .aux-primary .content .comment-respond .comment-form  input[type=url]{
+	background-color: #EFEFEF;
+  border: none;
+  border-radius: 25px;
+  padding: 29px 0 28px 39px!important;
+	margin-top:25px;
+}
+.single-post .aux-wrapper .aux-container .aux-primary .content .comment-respond{
+  margin-left: 15%!important;
+  margin-right:15%!important;
+}
+.single-post .aux-wrapper .aux-container .aux-primary .content .comment-respond .comment-reply-title{
+   margin-bottom: 0;
+}
+.single-post .aux-wrapper .aux-container .aux-primary .content .comment-respond .aux-form-inline-two .aux-inline-inputs{
+	flex-basis: calc(50% - 16px);
+}
+
+.aux-input-group textarea::-moz-placeholder, .aux-input-group input[type="email"]::-moz-placeholder, .aux-input-group input[type="url"]::-moz-placeholder {
+	color:rgba(0,0,0,0.50);
+	font-size:16px;
+	font-weight:400;
+	font-style:normal!important;
 
 
-     <!-- MENU -->
-     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-          <div class="container">
+	
+}
+.single-product  .wpulike-heart{
+    display:none;
+}
+@media screen and (min-width:504px) {
+.single-product .woocommerce-Reviews .commentlist .aux-star-rating{
+	position:absolute;
+	right:0
+}
+}
 
-               <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                    </button>
+.single-product .meta{
+	margin:0!important;
+}
+.aux-wrapper  .aux-container .aux-primary .content .comment-respond.comment-respond{
+	margin-top: 61px!important;
+	
+}
+.aux-input-group textarea::-webkit-input-placeholder, .aux-input-group input[type="email"]::-webkit-input-placeholder, .aux-input-group input[type="url"]::-webkit-input-placeholder {
+	color:rgba(0,0,0,0.50);
+	font-size:16px;
+	font-weight:400;
+	line-height:19px;
+	font-style:normal!important;	
+}
+.aux-input-group textarea:focus::-webkit-input-placeholder,  .aux-input-group input[type="email"]:focus::-webkit-input-placeholder, .aux-input-group input[type="url"]:focus::-webkit-input-placeholder{
+	font-weight:bold;
+	color:#000000;
+}
+.single-post .form-submit .submit{
+	background: #F42C37;
+	border-radius:25px;
+	padding:16px 70px!important;	 
+}
+.single-post .form-submit .submit:hover{
+	background-color:#000;
+}
+.single-post .form-submit {
+	margin-right: 0;
+  margin-left: auto;
+}
+.single-post .comment-form-cookies-consent{
+	display:none;
+}
+.single-post textarea{
+	margin-top:0!important;
+}
+@media screen and (max-width: 664px){
+.single-post .aux-wrapper .aux-container .aux-primary .content .aux-medium-context .entry-main .entry-content, 
+.single-post .aux-wrapper .aux-container .aux-primary .content .comment-respond{
+    margin-left: 0%!important;
+    margin-right: 0%!important;
+	}
+}
+/* Single-Product */
+.single-product .product .entry-summary .entry-title{
+  font-weight: bold;
+  font-size: 40px;
+  color: #000000;
+  letter-spacing: -1.2px;
+	margin-bottom: 22px!important;
+  line-height: 56px;
+}
+.single-product .aux-rating-box.aux-star-rating .aux-star-rating-avg:before{
+  color:#F83E3E;
+}
+.single-product .aux-rating-box.aux-star-rating {
+	font-size: 20px;
+}
+.single-product .aux-rating-box.aux-star-rating:before{
+   color:#CFCFCF;
+}
+.single-product .entry-summary .woocommerce-product-rating .woocommerce-review-link{
+	font-weight: 500;
+  font-size: 14px;
+  color: #9F9F9F;
+  letter-spacing: -0.7px;
+  line-height: 18px;
+	margin-left:10px;
+}
+.single-product .entry-summary .price .woocommerce-Price-amount {
+	font-weight: bold;
+  font-size: 35px!important;
+  color:#000000;
+  letter-spacing: -1.05px;
+  line-height: 43px;
+	margin-left:10px;
+}
+.single-product .entry-summary .price .woocommerce-Price-currencySymbol{
+	margin-right:8px;
+}
+.single-product .aux-wrapper .aux-primary .product .entry-summary .woocommerce-product-details__short-description  p{ 
+  height: 137px;
+  color: rgba(0,0,0,0.60);
+  font-size: 15px;
+  line-height: 23px;
+  max-width: 375px;
+  font-weight: 400;
+  overflow: hidden;
+	margin-top: 35px;
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product .entry-summary .cart{
+margin-top: 59px;
+	margin-bottom:55px		
+}
+.single-product  .tagged_as{
+	display:none;
+}
+.single-product  .aux-wrapper .aux-container .aux-primary .content .product-type-simple .entry-summary .quantity .qty{   width: 82px;
+text-align: center;
+border-radius: 25px;
+border: 1px solid
+#000000;
+font-size: 20px;
+font-weight: bold;
+line-height: 38px;
+color:
+#000000;
+padding: 4px 16px 4px 10px;
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product .entry-summary .cart .button {    width: 188px;
+  background-color: #F42C37;
+  border-radius: 25px;
+  padding: 16px 36px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.48px;
+	margin-left: 12px;
+	
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product .entry-summary .cart .button:hover{
+	background-color:#000!important;
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product .entry-summary  .product_meta .posted_in, .single-product .aux-wrapper .aux-container .aux-primary .content .product .entry-summary  .product_meta .posted_in a{
+	 font-weight: 400;
+   font-size:16px;
+   color:#000000;
+   line-height: 19px;
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product .entry-summary  .product_meta .posted_in a{
+	color:#F42C37;
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product .entry-summary {
+  width: 35%;
+	margin-top:5%;	
+}
+.single-product .aux-wrapper .aux-container  .images{
+ width: 59%;
+	padding-bottom:60px
+}
+.single-product .product .woocommerce-tabs .tabs::before{
+  top: 0;
+	bottom:auto!important;
+	z-index:5!important;	
+}
+.single-product  .product .woocommerce-tabs .tabs li{
+	border:none!important;
+	z-index:0;
+	background-color:transparent!important;
+	margin-left:78px!important;
+}
+@media screen and (max-width: 1123px){
+.single-product  .product .woocommerce-tabs .tabs li{
+margin-left:0!important;
+}
+}
+.single-product  .product .woocommerce-tabs .tabs{
+	text-align:center;
+	
 
-                    <!-- lOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand">Alpha <span></span> &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp</a>
-               </div>
+}
+.single-product  .product .woocommerce-tabs .tabs .active {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
 
-               <!-- MENU LINKS -->
-               <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-nav-first">
-                         <li><a href="#home" class="smoothScroll">Home</a></li>
-                         <li><a href="#about" class="smoothScroll">About</a></li>
-                         <li><a href="#team" class="smoothScroll">Team</a></li>
-                         <li><a href="#menu" class="smoothScroll">Why</a></li>
-                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                    </ul>
+}
+.single-product  .product .woocommerce-tabs .tabs .active a{
+	 border-top: 4px solid #F42C37;
+}
+.single-product  .product .woocommerce-tabs .tabs .description_tab a, .single-product  .product .woocommerce-tabs .tabs .reviews_tab a{
+	color:#CFCFCF;
+	padding-top:20px;
+	
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product  .panel{
+padding: 3% 15%!important;
+	
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product  .panel h2{
+  font-weight: bold;
+  color: #000000;
+  font-size: 25px;
+  line-height: 23px;
+  letter-spacing: -0.75px;
+  padding-bottom: 22px;
+  padding-top: 15px;
+	
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product  .panel p{
+	  font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0,0,0,0.60);
 
-                    <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#">Call Now! <i class="fa fa-phone"></i> 9588543375</a></li>
-                         <a href="#footer" class="section-btn">Booking Soon</a>
-                    </ul>
-               </div>
+}
+.single-product .aux-wrapper .aux-container  .woocommerce-product-gallery__image{
+	border-radius:20px;
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product .related>h2{
+	text-align:center;
+	 font-weight: bold;
+   color: #000000;
+   font-size:45px;
+   line-height: 68px;
+   letter-spacing: -2.25px;
+   padding-bottom: 52px;
+   padding-top: 15px;
+}
+.single-product .aux-wrapper .aux-container .product-type-simple .woocommerce-LoopProduct-link .woocommerce-loop-product__title{
+  font-weight: 400;
+  color: #000000;
+  font-size:17px;
+  line-height: 23px;
+  letter-spacing: -0.51px;
+  padding-top: 5px;
+  padding-bottom:12px;
+	 transition: all .2s cubic-bezier(0.4, 0, 0.2, 1) 70ms;
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product li:hover  .woocommerce-loop-product__title{
+	color:red;
+	font-weight:bold;
+	transition: all .2s cubic-bezier(0.4, 0, 0.2, 1) 70ms;
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product img{
+	border-radius:20px;
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product .price ins .woocommerce-Price-amount, .single-product .aux-wrapper .aux-container .aux-primary .content .product  .price  .woocommerce-Price-amount{
+	font-weight:bold;
+	color:#000000;
+	font-size:20px;
+	line-height:24px;
+	letter-spacing:0.6px;
+	margin-top:50px;
 
-          </div>
-     </section>
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product del .woocommerce-Price-amount{
+	color:#CFCFCF!important;
+	font-size:16px!important;
+	font-weight:400!important;
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .products .aux-rating-box.aux-star-rating, .aux-shop-archive .aux-rating-box.aux-star-rating{
+	display:none;
+}
+.single-product li:hover .button{
+	transform: translateX(calc(97% + 30px));
+    transition: transform 1.2s cubic-bezier(.19,1,.22,1) 70ms;
+}
+.single-product a.button{
+	position: absolute;
+  bottom: 0;
+  left: -158px;
+}
+.single-product .aux-wrapper .aux-container .product{
+	position: relative;
+  overflow: hidden;
+}
+.single-product .products .product .price del .woocommerce-Price-amount{
+	 transition: transform 1.2s cubic-bezier(.19,1,.22,1) 70ms;
+}
+.single-product li:hover .price{
+	transform: translateX(calc(34% + 30px));
+    transition: transform 1.2s cubic-bezier(.19,1,.22,1) 70ms;
+}
+.single-product a.button{
+	background-color: #F42C37;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #fff;
+  letter-spacing: -0.45px;
+  text-transform: capitalize;
+  padding: 9px 25px;
+}
+.single-product  .products .product .onsale, .single-product span.onsale{
+	top: 21px!important;
+  right: auto!important;
+  left: 16px!important;
+  width: 48px;
+  background-color: #F42C37;
+  font-size: 13px;
+  font-weight: bold;	
+}
+
+@media screen and (max-width: 1336px) {
+.single-product a.button{
+   position: relative;
+}
+.single-product  .products li.product .price{
+  transform: none;
+  transition: none;
+}
+
+.single-product li:hover .button{
+  transform: translateX(calc(100% + 30px));
+}
+.single-product .aux-wrapper .aux-container .product-type-simple .woocommerce-LoopProduct-link .woocommerce-loop-product__title{
+  font-size: 14px;
+}
+}
+.single-product   .product  .woocommerce-Tabs-panel .woocommerce-Reviews .comment-respond .comment-reply-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000!important;
+  line-height: 30px;
+  letter-spacing: -0.6px;
+}
+.single-product  .woocommerce-tabs .woocommerce-Reviews .comment-respond .comment-form .comment-form-rating label{    
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+  line-height: 23px;
+  padding-right: 25px;
+}
+.single-product .comment-form-comment label{
+  font-weight: 400;
+  color : rgba(0,0,0,0.50);
+  font-size: 16px;
+  line-height: 19px;  
+}
+.single-product .entry-content .woocommerce-Reviews .comment-respond .comment-form .comment-form-rating{
+  display: flex;
+  margin-top: 17px;
+}
+
+.single-product .woocommerce-Tabs-panel  .woocommerce-Reviews .comment-respond .customize-unpreviewable .comment-form-rating .stars{
+padding-top:6px!important;
+}
+.single-product .stars a::before{
+	color:#F83E3E;
+}
+
+.aux-cart-element-container .aux-cart-wrapper .aux-card-dropdown{
+  z-index: 6;
+  right: 1px;
+  left: auto;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 3px 40px #0000001A;
+  background-color: #fff;
+	width:365px;
+}
+.aux-cart-element-container .aux-card-dropdown .aux-card-box .aux-card-item .aux-card-item-img img{
+ border-radius: 15px;
+  width: 100px;
+  height: 95px;
+}
+.aux-card-dropdown .aux-card-box .aux-card-item .aux-card-item-details h3{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #000;
+  letter-spacing: -0.45px;
+	padding-bottom:15px;
+	padding-top:10px;
+}
+.single-product .aux-container .aux-primary .content .product .wc-tabs-wrapper .entry-content .woocommerce-Reviews .comment-respond .comment-form .comment-form-comment textarea, .single-product .aux-container .aux-primary .content .product .wc-tabs-wrapper .entry-content .woocommerce-Reviews .comment-respond  input[type=email], .single-product .aux-container .aux-primary .content .product .wc-tabs-wrapper .entry-content .woocommerce-Reviews .comment-respond input[type=text]{
+    background-color:#EFEFEF!important;
+   border: none;
+   border-radius: 50px;
+	 padding: 26px!important;
+}
+.single-product .aux-container .aux-primary .content .product .wc-tabs-wrapper .entry-content .woocommerce-Reviews .comment-respond .comment-form .comment-form-comment textarea{
+	border-radius:25px;
+    height: 271px!important;
+}
+
+.single-product .woocommerce-Reviews .comment-respond .comment-form .comment-form-author, .single-product .woocommerce-Reviews .comment-respond .comment-form .comment-form-email{
+   display: inline-block;
+   width: 47%; 
+}
+.single-product .woocommerce-Tabs-panel .woocommerce-Reviews .comment-respond .comment-form .comment-form-cookies-consent{
+	display:none;
+}
+.single-product .woocommerce-Reviews .comment-respond .comment-form .comment-form-email{
+	  margin-left: 4%!important;
+}
+.single-product .aux-container .aux-primary .content .product .wc-tabs-wrapper .entry-content .woocommerce-Reviews .comment-respond  input[type=email], .single-product .aux-container .aux-primary .content .product .wc-tabs-wrapper .entry-content .woocommerce-Reviews .comment-respond input[type=text]{
+	width: 100%!important;
+}
+.aux-card-dropdown .aux-card-box .aux-card-item .aux-card-item-details span{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+	letter-spacing:-0.45px;
+}
+.aux-cart-wrapper .aux-card-box{
+	border:none;
+}
+.aux-cart-wrapper .aux-card-item:last-child{
+	border-bottom: 1px solid #CFCFCF;
+    padding-bottom: 25px;
+}
+.aux-cart-wrapper .aux-card-checkout{
+	 padding: 12px 1.25em 1.25em;
+}
+.aux-cart-wrapper .aux-card-checkout .aux-card-final-amount .aux-card-final-amount-text{	
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+  text-transform: capitalize;
+  padding-bottom: 0;
+}
+.aux-cart-wrapper .aux-card-checkout .aux-card-final-amount .woocommerce-Price-amount{
+  font-weight: bold;
+  font-size: 20px;
+  color: #F83E3E;
+  letter-spacing: -0.6px;
+}
+.aux-cart-wrapper .aux-card-checkout .aux-button{
+  margin-top: 23px;
+  background-color: #000000;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+  line-height: 23px;
+	padding: 15px 78px;
+}
+.aux-cart-wrapper .aux-card-checkout .aux-button:last-child{
+	 margin-bottom: 8px;
+	 margin-top: -10px;
+   background-color: #F42C37!important;
+  color: #fff;
+  box-shadow: none;
+  font-weight: 500;
+   line-height: 19px;
+}
+.aux-black.aux-button.aux-outline .aux-overlay:after, .aux-button.aux-black .aux-overlay:after{
+	background-color:#000!important;
+	
+}
+.single-product .wc-tabs-wrapper .woocommerce-Reviews .comment-respond .form-submit input{
+  background-color: #F42C37!important;
+  color: #fff!important;
+  border-radius: 25px!important;
+  font-weight: 500!important;
+  font-size: 16px!important;
+  letter-spacing: -0.48px!important;
+  line-height: 19px!important;
+  padding: 16px 73px!important;
+}
+.single-product .wc-tabs-wrapper .woocommerce-Reviews .comment-respond .form-submit input:hover{
+	background-color:#000!important;
+}
+.single-product .form-submit{
+	text-align:right;	
+}
+.single-product .comment-form-author{
+	padding-top:72px!important;	
+}
+.single-product .comment-form{
+	position:relative;
+}
+.single-product .comment-form-rating{
+	position:absolute;
+	top:24px;	
+}
+.single-product .woocommerce-message{
+	display:none;
+}
+@media screen and (max-width: 937px){.single-product .aux-wrapper .aux-container .aux-primary .content .product .entry-summary{
+  width: 100%;
+}
+.single-product .aux-wrapper .aux-primary .product .entry-summary .woocommerce-product-details__short-description p{
+  max-width: 95%;
+}
+.single-product .product .images.woocommerce-product-gallery{
+   width: 100%;
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product .panel{
+		padding-left:0!important;
+		padding-right:0!important;
+	}
+}
+@media screen and (max-width: 694px){
+.single-product a.button{
+     font-size: 12px;
+}
+.single-product li:hover .button{
+      transform: translateX(calc(100% + 76px));
+}
+.single-product .aux-wrapper .aux-container .aux-primary .content .product .related>h2{
+	font-size: 31px;
+    line-height: 55px;
+    letter-spacing: -1.25px;	
+	}
+.single-product a.button{
+		padding:5px 10px;
+	}
+.single-product .entry-content .woocommerce-Reviews .comment-respond .comment-form .comment-form-rating{
+
+  margin-top: 65px;
+}
+}
+.single-product .product .woocommerce-tabs .tabs li.active::before, .single-product .product .woocommerce-tabs .tabs .active::after, .single-product .product .woocommerce-tabs .tabs li::before, .single-product .product .woocommerce-tabs .tabs li::after{
+	display:none;
+}
+.single-product .comment_container img{
+    width: 58px!important;
+	border-radius:100px!important;
+}
+
+.single-product .woocommerce-Price-amount{
+	margin-left:0!important;	
+}
+.single-product .aux-wrapper .aux-container  .aux-primary .content .product .woocommerce-tabs  .woocommerce-Reviews .commentlist .comment_container .comment-text{
+	border:none!important;
+	padding:0!important;
+	padding-left:25px!important;
+}
+.single-product .aux-wrapper .aux-container  .aux-primary .content .product .woocommerce-tabs  .woocommerce-Reviews .commentlist{
+	    background-color: #EFEFEF!important;
+    padding: 59px 50px 35px 50px;
+    border-radius: 25px;
+}
+.single-product .aux-wrapper .aux-container  .aux-primary .content .product .woocommerce-tabs .woocommerce-Reviews .woocommerce-Reviews-title{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -.3px;
+    padding-bottom: 58px;
+}
+.single-product  .woocommerce-review__author, .single-product  .woocommerce-review__published-date{
+color: #000;
+}.site-header-section .aux-header-elements:not(.aux-vertical-menu-elements), .site-header-section .aux-fill .aux-menu-depth-0 > .aux-item-content { height:90px; }.site-header-section.aux-sticky { background-color:#ffffff; }		</style>
+		<!-- end wp_head -->
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
 
 
-     <!-- HOME -->
-     <section id="home" class="slider" data-stellar-background-ratio="0.5">
-          <div class="row">
+<body class="home page-template page-template-templates page-template-page-builder-content page-template-templatespage-builder-content-php page page-id-211 wp-custom-logo theme-phlox _auxels woocommerce-js elementor-default elementor-kit-218 elementor-page elementor-page-211 phlox aux-full-width aux-resp aux-s-fhd  aux-page-animation-off aux-dom-ready" data-framed="" data-elementor-device-mode="desktop">
 
-                    <div class="owl-carousel owl-theme">
-                         <div class="item item-first">
-                              <div class="caption">
-                                   <div class="container">
-                                        <div class="col-md-8 col-sm-12">
-                                             <h3></h3>
-                                             <h1> </h1>
-                                             <!--<a href="#team" class="section-btn btn btn-default smoothScroll"></a>-->
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
 
-                         <div class="item item-second">
-                              <div class="caption">
-                                   <div class="container">
-                                        <div class="col-md-8 col-sm-12">
-                                             <h3>Keep your eyes open.</h3>
-                                             <h1>Something is there.</h1>
-                                             <!--<a href="#menu" class="section-btn btn btn-default smoothScroll">Discover menu</a>-->
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
+<div id="inner-body">
 
-                         <div class="item item-third">
-                              <div class="caption">
-                                   <div class="container">
-                                        <div class="col-md-8 col-sm-12">
-                                             <h3>change is coming</h3>
-                                             <h1>Be the part of revolution</h1>
-                                             <a href="#contact" class="section-btn btn btn-default smoothScroll">Join us</a>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
+    <header class="aux-elementor-header" id="site-elementor-header" itemscope="itemscope" itemtype="https://schema.org/WPHeader" data-sticky-height="80">
+        <div class="aux-wrapper">
+            <div class="aux-header aux-header-elements-wrapper">
+            		<div data-elementor-type="header" data-elementor-id="68" class="elementor elementor-68" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-d9f9b02 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="d9f9b02" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="aux-parallax-section elementor-element elementor-element-9617791 elementor-column elementor-col-20 elementor-top-column" data-id="9617791" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-32a841c elementor-widget elementor-widget-aux_logo" data-id="32a841c" data-element_type="widget" data-widget_type="aux_logo.default">
+				<div class="elementor-widget-container">
+			<div class="aux-widget-logo"><a class="aux-logo-anchor aux-has-logo" title="Nix Store" href="http://sniccy.com/" style="color:black; font-weight:bold">Sniccy</a><section class="aux-logo-text"><h3 class="site-title"><a href="http://sniccy.com/" title="Nix Store">Nix Store</a></h3></section></div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-2aef2d6 elementor-column elementor-col-20 elementor-top-column" data-id="2aef2d6" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c63e02d elementor-widget elementor-widget-aux_menu_box" data-id="c63e02d" data-element_type="widget" data-widget_type="aux_menu_box.default">
+				<div class="elementor-widget-container">
+			<div class="aux-elementor-header aux-nav-menu-element aux-nav-menu-element-c63e02d"><div class="aux-burger-box" data-target-panel="overlay" data-target-content=".elementor-element-c63e02d .aux-master-menu"><div class="aux-burger aux-lite-small"><span class="mid-line"></span></div></div><!-- start master menu -->
+<nav id="master-menu-elementor-c63e02d" class="menu-main-menu-container"><ul id="menu-main-menu" class="aux-master-menu aux-with-indicator aux-with-splitter aux-skin-classic aux-horizontal aux-wide" data-type="horizontal" data-switch-type="toggle" data-switch-parent=".elementor-element-c63e02d .aux-fs-popup .aux-fs-menu" data-switch-width="768">
+		<!-- start single menu -->
+		<li id="menu-item-213" class="a1i0s0 menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-211 current_page_item menu-item-213 aux-menu-depth-0 aux-menu-root-1 aux-menu-item">
+			<a href="homes.html" class="aux-item-content">
+				<span class="aux-menu-label">Dream Place</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<!-- <li id="menu-item-214" class="a1i0s0 menu-item menu-item-type-post_type menu-item-object-page menu-item-214 aux-menu-depth-0 aux-menu-root-2 aux-menu-item">
+			<a href="http://sniccy.com/index.php/shop/" class="aux-item-content">
+				<span class="aux-menu-label">Shop</span>
+			</a>
+		</li> -->
+
+
+		<!-- end single menu -->
+		<!-- start single menu -->
+	
+    
+        <!-- <li id="menu-item-215" class="a1i0s0 menu-item menu-item-type-post_type menu-item-object-page menu-item-215 aux-menu-depth-0 aux-menu-root-3 aux-menu-item">
+			<a href="http://sniccy.com/index.php/about-us/" class="aux-item-content">
+				<span class="aux-menu-label">About Us</span>
+			</a>
+		</li> -->
+
+
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<!-- <li id="menu-item-216" class="a1i0s0 menu-item menu-item-type-post_type menu-item-object-page menu-item-216 aux-menu-depth-0 aux-menu-root-4 aux-menu-item">
+			<a href="http://sniccy.com/index.php/blog/" class="aux-item-content">
+				<span class="aux-menu-label">Blog</span>
+			</a>
+		</li> -->
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<!-- <li id="menu-item-217" class="a1i0s0 menu-item menu-item-type-post_type menu-item-object-page menu-item-217 aux-menu-depth-0 aux-menu-root-5 aux-menu-item">
+			<a href="http://sniccy.com/index.php/contact-us/" class="aux-item-content">
+				<span class="aux-menu-label">Contact Us</span>
+			</a>
+		</li> -->
+		<!-- end single menu -->
+	</ul>
+
+	
+
+</nav>
+<!-- end master menu -->
+<section class="aux-fs-popup aux-fs-menu-layout-center aux-indicator" style="display: none;"><div class="aux-panel-close"><div class="aux-close aux-cross-symbol aux-thick-medium"></div></div><div class="aux-fs-menu"></div></section></div><style>@media only screen and (min-width: 768px) { .elementor-element-c63e02d .aux-burger-box { display: none } }</style>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<!-- <div class="aux-parallax-section elementor-element elementor-element-73bdf93 elementor-column elementor-col-20 elementor-top-column" data-id="73bdf93" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					 <div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4abdd29 elementor-widget elementor-widget-aux_button" data-id="4abdd29" data-element_type="widget" data-widget_type="aux_button.default">
+				<div class="elementor-widget-container">
+			<button class="aux-button aux-medium aux-carmine-pink aux-none aux-uppercase"><span class="aux-overlay"></span><span class="aux-text">login</span></button>		</div>
+				</div>
+						</div> 
+			</div>
+		</div> -->
+				<!-- <div class="aux-parallax-section elementor-element elementor-element-35c440e elementor-column elementor-col-20 elementor-top-column" data-id="35c440e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-8322d3c elementor-widget elementor-widget-aux_modern_search" data-id="8322d3c" data-element_type="widget" data-widget_type="aux_modern_search.default">
+				<div class="elementor-widget-container">
+			<div class="aux-modern-search">        <div class="aux-modern-search-wrapper">
+            <button class="aux-search-submit aux-search-fullscreen" data-target=".aux-search-popup-8322d3c">
+                <i class="auxicon auxicon-search-4 auxicon"></i>
+                <span class="aux-submit-text"></span>
+            </button>
+        </div>
+            <div class="aux-search-popup aux-search-popup-8322d3c">
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="aux-search-popup-content">
+                        <div class="aux-search-form aux-search-ajax">
+            <form action="http://sniccy.com/" method="get">
+                <div class="aux-search-input-form">
+                    <input type="text" class="aux-search-field" placeholder="Search..." name="s" autocomplete="off">
+                                                                                            <div class="aux-submit-icon-container auxicon-search-4">
+                                <input type="submit" class="aux-iconic-search-submit" value="Search">
+                            </div>
+                                                            </div>
+            </form>
+        </div>
+                                        <div class="aux-search-ajax-container">
+                        <div class="aux-search-ajax-output"></div>
+                        <div class="aux-loading-spinner aux-spinner-hide">
+                            <div class="aux-loading-loop">
+                            <svg class="aux-circle" width="100%" height="100%" viewBox="0 0 42 42">
+                                <circle class="aux-stroke-bg" r="20" cx="21" cy="21" fill="none"></circle>
+                                <circle class="aux-progress" r="20" cx="21" cy="21" fill="none" transform="rotate(-90 21 21)"></circle>
+                            </svg>
+                            </div>
+                        </div>
                     </div>
+                            </div>
+        </div>
+    </div>		</div>
+				</div>
+						</div>
+			</div>
+		</div> -->
+				<!-- <div class="aux-parallax-section elementor-element elementor-element-d4c3cce elementor-column elementor-col-20 elementor-top-column" data-id="d4c3cce" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-0d60e71 elementor-widget elementor-widget-aux_shopping_cart" data-id="0d60e71" data-element_type="widget" data-widget_type="aux_shopping_cart.default">
+				<div class="elementor-widget-container">
+			<div class="aux-cart-element-container">
+        <div class="aux-cart-wrapper aux-elegant-cart aux-cart-element aux-cart-type-dropdown aux-basket-animation">
+            <div class="aux-shopping-basket aux-phone-off aux-action-on-hover">
+                    <a class="aux-cart-contents auxicon-handbag" href="http://sniccy.com/#" title="View your shopping cart">
+            <span>1</span>        </a>
 
-          </div>
-     </section>
-
-
-     <!-- ABOUT -->
-     <section id="about" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-6 col-sm-12">
-                         <div class="about-info">
-                              <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
-                                   <h4>Read our story</h4>
-                                   <h2 style="color:white;">Simple.ai</h2>
-                              </div>
-
-                              <div class="wow fadeInUp" data-wow-delay="0.4s">
-                                   <p style="font-size:18px; color:#d9d2d2;">
-                                      Our product that makes Autonomy simple to all, It will help people to be more efficient than before.
-                                   Simple.ai is here to provide autonomy service to Cars, bussiness, Robots, etc.
-                                   </p><br>
-                                   <p style="font-size:18px;">Think simple.<a href="" target="_parent"></a> and do simple</p>
-                                   <p style="font-size:18px;color:#d9d2d2;">Alpha is trying to make earth better place to live and solve problem of energy, global warming, and more. </p>
-                              </div>
-                         </div>
                     </div>
+            <div id="shopping-basket-burger" class="aux-shopping-basket aux-basket-burger aux-phone-on">
+                <a class="aux-cart-contents auxicon-handbag" href="http://sniccy.com/#" title="View your shopping cart">
+            <span>1</span>                </a>
+            </div>
+                                                <div class="aux-card-dropdown aux-phone-off  aux-modern-dropdown" style="">
+                    <div class="aux-card-box">            <div class="aux-card-item" data-product-id="204">
+                <div class="aux-card-item-img">
+                <img width="150" height="150" src="./Nix Store_files/Group-1273-768x576-1-150x150.jpg" class="aux-attachment aux-featured-image attachment-150x150 aux-attachment-id-270 " alt="Group-1273-768x576" srcset="http://sniccy.com/wp-content/uploads/2019/09/Group-1273-768x576-1-150x150.jpg 150w,http://sniccy.com/wp-content/uploads/2019/09/Group-1273-768x576-1-300x300.jpg 300w,http://sniccy.com/wp-content/uploads/2019/09/Group-1273-768x576-1-150x150.jpg 150w" data-ratio="1" data-original-w="768" sizes="(max-width:479px) 480px,(max-width:767px) 768px,(max-width:1023px) 1024px,150px">                </div>
+                <div class="aux-card-item-details">
+                    <a class="aux-item-permalink" href="http://sniccy.com/index.php/product/beats-2/">
+                        <h3>Sniccy</h3>
+                    </a>
+                    <span>
+                        1 × <del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₹</span>11,950.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₹</span>9,950.00</span></ins>                    </span>
+                    <a href="http://sniccy.com/index.php/cart/?remove_item=274ad4786c3abca69fa097b85867d9a4&amp;_wpnonce=d7fca7973e" class="aux-remove-cart-content aux-svg-symbol aux-small-cross aux-black" data-verify_nonce="ed7c57758f" data-product_id="204"></a>
+                </div>
+            </div>
+</div>        <div class="aux-inline-card-checkout">
+                        <div class="aux-card-final-amount aux-cart-subtotal">
+            Sub Total<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₹</span>9,950.00</span>            </div>
+            <div class="aux-button-wrapper">
+                                <a href="http://sniccy.com/index.php/checkout/" class="aux-button aux-checkout-button aux-large aux-black aux-uppercase">
+                    <span class="aux-overlay"></span>
+                    <span class="aux-text">Proceed to checkout</span>
+                </a>
+                <a href="http://sniccy.com/index.php/cart/" class="aux-button aux-cart-button aux-large aux- aux-black aux-outline aux-uppercase">
+                    <span class="aux-overlay"></span>
+                    <span class="aux-text">View Cart</span>
+                </a>
+            </div>
+        </div>
+                        </div>
+                                    </div>
+        </div>		</div>
+				</div>
+						</div>
+			</div>
+		</div> -->
+						
+    </div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		            </div><!-- end of header-elements -->
+        </div><!-- end of wrapper -->
+    </header><!-- end header -->
 
-                    <div class="col-md-6 col-sm-12">
-                         <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
-                              <img src="images/new/home-about-3.jpg" class="img-responsive" alt="">
-                         </div>
-                    </div>
-                    
-               </div>
-          </div>
-     </section>
+    <main id="main" class="aux-main aux-territory  aux-single aux-page aux-full-container no-sidebar aux-sidebar-style-border aux-user-entry">
+        <div class="aux-wrapper">
+            <div class="aux-container aux-fold">
 
+                <div id="primary" class="aux-primary">
+                    <div class="content" role="main">
 
-     <!-- TEAM -->
-     <section id="team" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
+                        
 
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
-                              <h2 style="color:white;">Autonomous Delivery: spine</h2>
-                              <h4>Making delivery cost effective, efficient</h4>
-                         </div>
-                    </div>
+        
+        <article id="post-211" class="post-211 page type-page status-publish hentry">
 
-                    <!--<div class="col-md-3 col-sm-4">-->
-                         <!--<div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">-->
-                              <!--<img src="images/new/team-image1.jpg" class="img-responsive" alt="">-->
-                                   <!--<div class="team-hover">-->
-                                        <!--<div class="team-item">-->
-                                             <!--<h4>Ayush Rana</h4>-->
-                                             <!--<ul class="social-icon">-->
-                                                  <!--<li><a href="https://www.linkedin.com/in/ayushrana/" target="_blank" class="fa fa-linkedin-square"></a></li>-->
-                                                  <!--&lt;!&ndash;<li><a href="#" class="fa fa-envelope-o"></a></li>&ndash;&gt;-->
-                                             <!--</ul>-->
-                                        <!--</div>-->
-                                   <!--</div>-->
-                         <!--</div>-->
-                         <!--<div class="team-info">-->
-                              <!--<h3>Ayush Rana</h3>-->
-                              <!--<p>Developer|Product Design</p>-->
-                         <!--</div>-->
-                    <!--</div>-->
+            		<div data-elementor-type="wp-page" data-elementor-id="211" class="elementor elementor-211" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-24e40ea elementor-section-content-middle aux-appear-watch-animation aux-scale-down elementor-section-boxed elementor-section-height-default elementor-section elementor-top-section aux-animated aux-animated-once" data-id="24e40ea" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="aux-parallax-section elementor-element elementor-element-df6f8d5 elementor-column elementor-col-100 elementor-top-column" data-id="df6f8d5" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+							<div class="elementor-background-overlay"></div>
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-7b9636c elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="7b9636c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="aux-parallax-section elementor-element elementor-element-3050753 elementor-column elementor-col-100 elementor-inner-column" data-id="3050753" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c657f87 elementor-widget__width-auto aux-appear-watch-animation aux-fade-in-up-1 elementor-widget elementor-widget-aux_modern_heading aux-animated aux-animated-once" data-id="c657f87" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner "><h2 class="aux-modern-heading-primary">Sniccy</h2><h3 class="aux-modern-heading-secondary"><span class="aux-head-before">Prachar </span></h3><div class="aux-modern-heading-description"><p>Auto Ads</p></div></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-0b763ef aux-appear-watch-animation aux-fade-in elementor-widget elementor-widget-aux_image aux-animated aux-animated-once" data-id="0b763ef" data-element_type="widget" data-widget_type="aux_image.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-image aux-alignnone aux-parent-au0e044ebc" style="">
+    <div class="aux-media-hint-frame ">
+        <div class="aux-media-image ">
+        
+            
 
-                    <!--<div class="col-md-3 col-sm-4">-->
-                         <!--<div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">-->
-                              <!--<img src="images/new/team-image2.jpg" class="img-responsive" alt="">-->
-                                   <!--<div class="team-hover">-->
-                                        <!--<div class="team-item">-->
-                                             <!--<h4>Aryan Raj</h4>-->
-                                             <!--<ul class="social-icon">-->
-                                                  <!--&lt;!&ndash;<li><a href="#" class="fa fa-instagram"></a></li>&ndash;&gt;-->
-                                                  <!--&lt;!&ndash;<li><a href="#" class="fa fa-flickr"></a></li>&ndash;&gt;-->
-                                             <!--</ul>-->
-                                        <!--</div>-->
-                                   <!--</div>-->
-                         <!--</div>-->
-                         <!--<div class="team-info">-->
-                              <!--<h3>Aryan Raj</h3>-->
-                              <!--<p>IoT Developer | Web Developer</p>-->
-                         <!--</div>-->
-                    <!--</div>-->
+            
+            <img width="1710" height="1001" src="./Nix Store_files/home-main-1.png" class="aux-attachment aux-featured-image aux-attachment-id-220 aux-blank aux-preloaded" alt="Group_1271-1" data-ratio="1.71" data-original-w="1710" data-src="http://sniccy.com/wp-content/uploads/2020/04/Group_1271-1.png" style="height: auto;">            
+                </div>
+    </div>
 
-                    <!--<div class="col-md-3 col-sm-4">-->
-                         <!--<div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">-->
-                              <!--<img src="images/new/team-image3-v1.jpg" class="img-responsive" alt="">-->
-                                   <!--<div class="team-hover">-->
-                                        <!--<div class="team-item">-->
-                                             <!--<h4>Chirag Ramchandani</h4>-->
-                                             <!--<ul class="social-icon">-->
-                                                  <!--&lt;!&ndash;<li><a href="#" class="fa fa-github"></a></li>&ndash;&gt;-->
-                                                  <!--&lt;!&ndash;<li><a href="#" class="fa fa-google"></a></li>&ndash;&gt;-->
-                                             <!--</ul>-->
-                                        <!--</div>-->
-                                   <!--</div>-->
-                         <!--</div>-->
-                         <!--<div class="team-info">-->
-                              <!--<h3>Chirag Ramchandani</h3>-->
-                              <!--<p>Marketer | Content Writer </p>-->
-                         <!--</div>-->
-                    <!--</div>-->
-                            <!--<div class="col-md-3 col-sm-4">-->
-                         <!--<div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">-->
-                              <!--<img src="images/new/team-image4.jpg" class="img-responsive" alt="">-->
-                                   <!--<div class="team-hover">-->
-                                        <!--<div class="team-item">-->
-                                             <!--<h4>Pearl Yadav</h4>-->
-                                             <!--<ul class="social-icon">-->
-                                                  <!--&lt;!&ndash;<li><a href="#" class="fa fa-github"></a></li>&ndash;&gt;-->
-                                                  <!--&lt;!&ndash;<li><a href="#" class="fa fa-google"></a></li>&ndash;&gt;-->
-                                             <!--</ul>-->
-                                        <!--</div>-->
-                                   <!--</div>-->
-                         <!--</div>-->
-                         <!--<div class="team-info">-->
-                              <!--<h3>Pearl Yadav</h3>-->
-                              <!--<p>Android Developer</p>-->
-                         <!--</div>-->
-                    <!--</div>-->
+</section><!-- widget-container -->		</div>
+				</div>
+				<div class="elementor-element elementor-element-bbd5e6c elementor-widget__width-auto aux-appear-watch-animation aux-fade-in-up elementor-widget elementor-widget-aux_button aux-animated aux-animated-once" data-id="bbd5e6c" data-element_type="widget" data-widget_type="aux_button.default">
+				<div class="elementor-widget-container">
+			<a href="http://sniccy.com/shop-digital/shop/" target="_self" class="aux-button aux-medium aux-carmine-pink aux-curve aux-none aux-uppercase"><span class="aux-overlay"></span><span class="aux-text"> Visit Dream Place</span></a>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d57e8a3 elementor-widget__width-auto elementor-hidden-phone aux-appear-watch-animation aux-fade-in-right elementor-widget elementor-widget-aux_modern_heading aux-animated aux-animated-once" data-id="d57e8a3" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner aux-text-align-right"><h2 class="aux-modern-heading-primary">Description</h2><div class="aux-modern-heading-description"><p>Prachar is the Auto Advertisement that help to increase your brand awareness</p></div></div>
+        </section>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-3c1cb2b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3c1cb2b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="aux-parallax-section elementor-element elementor-element-d75798f aux-appear-watch-animation aux-fade-in-right-1 elementor-column elementor-col-25 elementor-top-column aux-animated aux-animated-once" data-id="d75798f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d063c52 elementor-widget elementor-widget-aux_image" data-id="d063c52" data-element_type="widget" data-widget_type="aux_image.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-image aux-alignnone aux-parent-aueb2500c5" style="">
+    <div class="aux-media-hint-frame ">
+        <div class="aux-media-image ">
+        
+            
 
+            
+            <!-- <img width="370" height="390" src="./Nix Store_files/Mask-Group-5-1.png" class="aux-attachment aux-featured-image aux-attachment-id-221 aux-blank aux-preloaded" alt="Mask-Group-5-1" data-ratio="0.95" data-original-w="370" data-src="http://sniccy.com/wp-content/uploads/2020/04/Mask-Group-5-1.png" style="height: auto;">             -->
+                </div>
+    </div>
 
-               </div>
-          </div>
-     </section>
+</section><!-- widget-container -->		</div>
+				</div>
+				<div class="elementor-element elementor-element-99a04a4 elementor-widget elementor-widget-aux_modern_heading" data-id="99a04a4" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner "><h6 class="aux-modern-heading-primary">Single Auto</h6><h3 class="aux-modern-heading-secondary"><span class="aux-head-before">999 ₹</span></h3><div class="aux-modern-heading-description"><p>Min 1 Month</p></div></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4d7e578 elementor-widget elementor-widget-aux_button" data-id="4d7e578" data-element_type="widget" data-widget_type="aux_button.default">
+				<div class="elementor-widget-container">
+			<a href="http://sniccy.com/shop-digital/shop/" target="_self" class="aux-button aux-medium aux-carmine-pink aux-curve aux-none aux-uppercase"><span class="aux-overlay"></span><span class="aux-text">Contact Us</span></a>		</div>
+				</div>
+						</div>
+			</div>  
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-f71208d aux-appear-watch-animation aux-fade-in-right-1 elementor-column elementor-col-25 elementor-top-column" data-id="f71208d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-dd9b347 elementor-widget elementor-widget-aux_modern_heading" data-id="dd9b347" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner "><h6 class="aux-modern-heading-primary">20 Auto</h6><h3 class="aux-modern-heading-secondary"><span class="aux-head-before">699 ₹ per Auto</span></h3><div class="aux-modern-heading-description"><p>Min 1 month</p></div></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2a2e580 elementor-widget elementor-widget-aux_button" data-id="2a2e580" data-element_type="widget" data-widget_type="aux_button.default">
+				<div class="elementor-widget-container">
+			<a href="http://sniccy.com/shop-digital/shop/" target="_self" class="aux-button aux-medium aux-carmine-pink aux-curve aux-none aux-uppercase"><span class="aux-overlay"></span><span class="aux-text">Contact Us</span></a>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b99926e elementor-widget elementor-widget-aux_image" data-id="b99926e" data-element_type="widget" data-widget_type="aux_image.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-image aux-alignnone aux-parent-au79b2950f" style="">
+    <div class="aux-media-hint-frame ">
+        <div class="aux-media-image ">
+        
+            
 
-     <!-- MENU-->
-     <section id="menu" data-stellar-background-ratio="0.5">
-          <div class="container">
+            
+            <!-- <img width="414" height="276" src="./Nix Store_files/clay-apple-watch-mockup-07.png" class="aux-attachment aux-featured-image aux-attachment-id-126" alt="clay-apple-watch-mockup-07" data-ratio="1.5" data-original-w="414">             -->
+                </div>
+    </div>
 
+</section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-b3ca156 aux-appear-watch-animation aux-fade-in-right-1 elementor-column elementor-col-50 elementor-top-column" data-id="b3ca156" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-598eb82 elementor-widget elementor-widget-aux_image" data-id="598eb82" data-element_type="widget" data-widget_type="aux_image.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-image aux-alignnone aux-parent-au6e439f48" style="">
+    <div class="aux-media-hint-frame ">
+        <div class="aux-media-image ">
+        
+            
 
+            
+            <!-- <img width="601" height="412" src="./Nix Store_files/Laptop.png" class="aux-attachment aux-featured-image aux-attachment-id-223 aux-blank lazyautosizes aux-preloaded" alt="Laptop" data-ratio="1" data-original-w="601" sizes="585px" data-srcset="http://sniccy.com/wp-content/uploads/2020/04/Laptop-150x150.png 150w,http://sniccy.com/wp-content/uploads/2020/04/Laptop-300x300.png 300w,http://sniccy.com/wp-content/uploads/2020/04/Laptop.png 601w" data-src="http://sniccy.com/wp-content/uploads/2020/04/Laptop.png" srcset="http://sniccy.com/wp-content/uploads/2020/04/Laptop-150x150.png 150w,http://sniccy.com/wp-content/uploads/2020/04/Laptop-300x300.png 300w,http://sniccy.com/wp-content/uploads/2020/04/Laptop.png 601w" style="height: auto;">             -->
+                </div>
+    </div>
 
-               <div class="row">
-
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
-                              <h2>Why Spine.</h2>
-                              <h4> It is made for riders not drivers.</h4>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <!-- MENU THUMB -->
-                         <div class="menu-thumb">
-                              <a href="images/new/spine-1.png" class="image-popup" title="No need to worry">
-                                   <img src="images/new/spine-1.png" class="img-responsive" alt="">
-
-                                   <div class="menu-info">
-                                        <div class="menu-item">
-                                             <h3>Cost Effective</h3>
-                                             <p>No need to pay for high delivery cost</p>
-                                        </div>
-                                        <div class="menu-price">
-                                             <span> </span>
-                                        </div>
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <!-- MENU THUMB -->
-                         <div class="menu-thumb">
-                              <a href="images/new/spine-2.jpg" class="image-popup" title="Safety button">
-                                   <img src="images/new/spine-2.jpg" class="img-responsive" alt="">
-
-                                   <div class="menu-info">
-                                        <div class="menu-item">
-                                             <h3>More Efficient </h3>
-                                             <p>More efficient and environment friendly</p>
-                                        </div>
-                                        <div class="menu-price">
-                                             <span></span>
-                                        </div>
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-12">
-                         <!-- MENU THUMB -->
-                         <div class="menu-thumb">
-                              <a href="images/new/spine-3.jpg" class="image-popup" title="Feel Cool">
-                                   <img src="images/new/spine-3.jpg" class="img-responsive" alt="">
-
-                                   <div class="menu-info">
-                                        <div class="menu-item">
-                                             <h3>One time investment</h3>
-                                             <p>Buy and get Good ROI</p>
-                                        </div>
-                                        <div class="menu-price">
-                                             <span></span>
-                                        </div>
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <!--<div class="col-md-4 col-sm-6">-->
-                         <!--&lt;!&ndash; MENU THUMB &ndash;&gt;-->
-                         <!--<div class="menu-thumb">-->
-                              <!--<a href="images/menu-image4.jpg" class="image-popup" title="Rice Soup">-->
-                                   <!--<img src="images/menu-image4.jpg" class="img-responsive" alt="">-->
-
-                                   <!--<div class="menu-info">-->
-                                        <!--<div class="menu-item">-->
-                                             <!--<h3>Rice Soup</h3>-->
-                                             <!--<p>Green / Chicken</p>-->
-                                        <!--</div>-->
-                                        <!--<div class="menu-price">-->
-                                             <!--<span>$28</span>-->
-                                        <!--</div>-->
-                                   <!--</div>-->
-                              <!--</a>-->
-                         <!--</div>-->
-                    <!--</div>-->
-
-                    <!--<div class="col-md-4 col-sm-6">-->
-                         <!--&lt;!&ndash; MENU THUMB &ndash;&gt;-->
-                         <!--<div class="menu-thumb">-->
-                              <!--<a href="images/menu-image5.jpg" class="image-popup" title="Project title">-->
-                                   <!--<img src="images/menu-image5.jpg" class="img-responsive" alt="">-->
-
-                                   <!--<div class="menu-info">-->
-                                        <!--<div class="menu-item">-->
-                                             <!--<h3>Deli Burger</h3>-->
-                                             <!--<p>Beef / Fried Potatoes</p>-->
-                                        <!--</div>-->
-                                        <!--<div class="menu-price">-->
-                                             <!--<span>$46</span>-->
-                                        <!--</div>-->
-                                   <!--</div>-->
-                              <!--</a>-->
-                         <!--</div>-->
-                    <!--</div>-->
-
-                    <!--<div class="col-md-4 col-sm-6">-->
-                         <!--&lt;!&ndash; MENU THUMB &ndash;&gt;-->
-                         <!--<div class="menu-thumb">-->
-                              <!--<a href="images/menu-image6.jpg" class="image-popup" title="Project title">-->
-                                   <!--<img src="images/menu-image6.jpg" class="img-responsive" alt="">-->
-
-                                   <!--<div class="menu-info">-->
-                                        <!--<div class="menu-item">-->
-                                             <!--<h3>Big Flat Fried</h3>-->
-                                             <!--<p>Pepper / Crispy</p>-->
-                                        <!--</div>-->
-                                        <!--<div class="menu-price">-->
-                                             <!--<span>$30</span>-->
-                                        <!--</div>-->
-                                   <!--</div>-->
-                              <!--</a>-->
-                         <!--</div>-->
-                    <!--</div>-->
+</section><!-- widget-container -->		</div>
+				</div>
+				<div class="elementor-element elementor-element-216679c elementor-widget elementor-widget-aux_modern_heading" data-id="216679c" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner "><h6 class="aux-modern-heading-primary">50+ Auto</h6><h3 class="aux-modern-heading-secondary"><span class="aux-head-before">599 ₹ per Auto</span></h3><div class="aux-modern-heading-description"><p>Min 1 month</p></div></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-36ed994 elementor-widget elementor-widget-aux_button" data-id="36ed994" data-element_type="widget" data-widget_type="aux_button.default">
+				<div class="elementor-widget-container">
+			<a href="http://sniccy.com/shop-digital/shop/" target="_self" class="aux-button aux-medium aux-carmine-pink aux-curve aux-none aux-uppercase"><span class="aux-overlay"></span><span class="aux-text">Contact us</span></a>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
 
 
-               </div>
-          </div>
-     </section>
+  
+        
 
 
-     <!-- TESTIMONIAL -->
-     <section id="testimonial" data-stellar-background-ratio="0.5">
-          <div class="overlay"></div>
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
-                              <h2>What people say about us?</h2>
-                         </div>
-                    </div>  
-
-                    <div class="col-md-offset-2 col-md-8 col-sm-12">
-                         <div class="owl-carousel owl-theme">
-                              <div class="item">
-                                   <p>It will be a great invention to help humanity and increase efficiency.</p>
-                                        <div class="tst-author">
-                                             <h4>Bagh Bhupal</h4>
-                                             <span>Retired Chief Autditor</span>
-                                        </div>
-                              </div>
-
-                              <div class="item">
-                                   <p>“Taking a step ahead to save lives”, This is gonna be a great invention if you guys will get successful in making this."</p>
-                                        <div class="tst-author">
-                                             <h4>Ritik Gupta</h4>
-                                             <span>Cyber Security </span>
-                                        </div>
-                              </div>
-
-                              <div class="item">
-                                   <p>Many people want this that can help delivery boys to earn money without risking their life or working 24*7</p>
-                                        <div class="tst-author">
-                                             <h4>Poll results</h4>
-                                             <span>India</span>
-                                        </div>
-                              </div>
-
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </section>  
 
 
-     <!-- CONTACT -->
-     <section id="contact" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-	<!-- How to change your own map point
-            1. Go to Google Maps
-            2. Click on your location point
-            3. Click "Share" and choose "Embed map" tab
-            4. Copy only URL and paste it within the src="" field below
-	-->
-                    <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.4s">
-                         <div id="google-map">
-                              <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" allowfullscreen></iframe>-->
-                       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13720.829789079391!2d76.7273064!3d30.712568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x67d41a7f8dc3063b!2sijoin!5e0!3m2!1sen!2sin!4v1640323512507!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                         </div>
-                    </div>    
 
-                    <!--<div class="col-md-6 col-sm-12">-->
+				<section class="elementor-element elementor-element-859dbb7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="859dbb7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="aux-parallax-section elementor-element elementor-element-be7560c aux-appear-watch-animation aux-fade-in-right elementor-column elementor-col-25 elementor-top-column" data-id="be7560c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-f1625d4 elementor-widget elementor-widget-aux_text" data-id="f1625d4" data-element_type="widget" data-widget_type="aux_text.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-text aux-parent-au9d9119bc" style="">        <div class="aux-widget-advanced-text aux-wrap-style-simple aux-ico-pos-left aux-text-left aux-text-resp- aux-text-color-dark aux-text-widget-bg-center aux-text-no-content ">
+        
+                            <div class="aux-text-widget-header ">
+                        <div class="aux-ico-box aux-ico-large aux-img-box aux-ico-shape-default aux-ico-clear ">
+                                                                <!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="aux-attachment aux-featured-image aux-attachment-id-168 aux-preload aux-blank aux-has-preload-height" alt="demo-attachment-99-noun_delivery_1095359" data-src="http://sniccy.com/wp-content/uploads/2019/09/noun_delivery_1095359.svg" height="40" width="69.613" style="height: 31.0287px;">                       -->
+                                                                                          </div>
+                </div>
+            
+            <div class="aux-text-inner aux-text-widget-content">
+                                <h4 class="col-title">Low Cost</h4>
+                                <h5 class="col-subtitle">Market your brand at min cost</h5>
 
-                         <!--<div class="col-md-12 col-sm-12">-->
-                              <!--<div class="section-title wow fadeInUp" data-wow-delay="0.1s">-->
-                                   <!--<h2>Contact Us</h2>-->
-                              <!--</div>-->
-                         <!--</div>-->
+                            </div>
+        </div>
+                    <div class="aux-text-widget-footer">
+                <div class="aux-border-shape-none ">
+                                </div>
+            </div>
+        
+</section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-502f2a5 aux-appear-watch-animation aux-fade-in-right elementor-column elementor-col-25 elementor-top-column" data-id="502f2a5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-407b71a elementor-widget elementor-widget-aux_text" data-id="407b71a" data-element_type="widget" data-widget_type="aux_text.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-text aux-parent-au58cee0bd" style="">        <div class="aux-widget-advanced-text aux-wrap-style-simple aux-ico-pos-left aux-text-left aux-text-resp- aux-text-color-dark aux-text-widget-bg-center aux-text-no-content ">
+        
+                            <div class="aux-text-widget-header ">
+                        <div class="aux-ico-box aux-ico-large aux-img-box aux-ico-shape-default aux-ico-clear ">
+                                                                <!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="aux-attachment aux-featured-image aux-attachment-id-165 aux-preload aux-blank aux-has-preload-height" alt="demo-attachment-101-noun_guarantee_952398" data-src="http://sniccy.com/wp-content/uploads/2019/09/noun_guarantee_952398.svg" height="49.552" width="48.579" style="height: 34.681px;">                                               -->
+                                                                  </div>
+                </div>
+            
+            <div class="aux-text-inner aux-text-widget-content">
+                                <h4 class="col-title">Auto back Panel</h4>
+                                <h5 class="col-subtitle">and auto hood advertising available</h5>
 
-                         <!-- CONTACT FORM -->
-                         <!--<form action="#" method="post" class="wow fadeInUp" id="contact-form" role="form" data-wow-delay="0.8s">-->
+                            </div>
+        </div>
+                    <div class="aux-text-widget-footer">
+                <div class="aux-border-shape-none ">
+                                </div>
+            </div>
+        
+</section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-2791bf9 aux-appear-watch-animation aux-fade-in-right elementor-column elementor-col-25 elementor-top-column" data-id="2791bf9" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a11a02e elementor-widget elementor-widget-aux_text" data-id="a11a02e" data-element_type="widget" data-widget_type="aux_text.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-text aux-parent-auf3a432a8" style="">        <div class="aux-widget-advanced-text aux-wrap-style-simple aux-ico-pos-left aux-text-left aux-text-resp- aux-text-color-dark aux-text-widget-bg-center aux-text-no-content ">
+        
+                            <div class="aux-text-widget-header ">
+                        <div class="aux-ico-box aux-ico-large aux-img-box aux-ico-shape-default aux-ico-clear ">
+                                                                <!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="aux-attachment aux-featured-image aux-attachment-id-169 aux-preload aux-blank aux-has-preload-height" alt="demo-attachment-98-Group-995" data-src="http://sniccy.com/wp-content/uploads/2019/09/Group-995.svg" height="40" width="49.231" style="height: 28.4374px;">                                               -->
+                                                                  </div>
+                </div>
+            
+            <div class="aux-text-inner aux-text-widget-content">
+                                <h4 class="col-title">Online Support 24/7</h4>
+                                <h5 class="col-subtitle">Technical Support 24/7</h5>
 
-                              <!--&lt;!&ndash; IF MAIL SENT SUCCESSFUL  // connect this with custom JS &ndash;&gt;-->
-                              <!--<h6 class="text-success">Your message has been sent successfully.</h6>-->
-                              <!---->
-                              <!--&lt;!&ndash; IF MAIL NOT SENT &ndash;&gt;-->
-                              <!--<h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>-->
+                            </div>
+        </div>
+                    <div class="aux-text-widget-footer">
+                <div class="aux-border-shape-none ">
+                                </div>
+            </div>
+        
+</section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-55603f6 aux-appear-watch-animation aux-fade-in-right elementor-column elementor-col-25 elementor-top-column" data-id="55603f6" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-cb88a6a elementor-widget elementor-widget-aux_text" data-id="cb88a6a" data-element_type="widget" data-widget_type="aux_text.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-text aux-parent-aub0b4320a" style="">        <div class="aux-widget-advanced-text aux-wrap-style-simple aux-ico-pos-left aux-text-left aux-text-resp- aux-text-color-dark aux-text-widget-bg-center aux-text-no-content ">
+        
+                            <div class="aux-text-widget-header ">
+                        <div class="aux-ico-box aux-ico-large aux-img-box aux-ico-shape-default aux-ico-clear ">
+                                                                <!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="aux-attachment aux-featured-image aux-attachment-id-163 aux-preload aux-blank aux-has-preload-height" alt="demo-attachment-104-noun_Wallet_745515" data-src="http://sniccy.com/wp-content/uploads/2019/09/noun_Wallet_745515.svg" height="40.804" width="44.03" style="height: 27.802px;">                                                    -->
+                                                             </div>
+                </div>
+            
+            <div class="aux-text-inner aux-text-widget-content">
+                                <h4 class="col-title">Grow you brand</h4>
+                                <h5 class="col-subtitle">Work with us</h5>
 
-                              <!--<div class="col-md-6 col-sm-6">-->
-                                   <!--<input type="text" class="form-control" id="cf-name" name="name" placeholder="Full name">-->
-                              <!--</div>-->
-
-                              <!--<div class="col-md-6 col-sm-6">-->
-                                   <!--<input type="email" class="form-control" id="cf-email" name="email" placeholder="Email address">-->
-                              <!--</div>-->
-
-                              <!--<div class="col-md-12 col-sm-12">-->
-                                   <!--<input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Subject">-->
-
-                                   <!--<textarea class="form-control" rows="6" id="cf-message" name="message" placeholder="What we can do?"></textarea>-->
-
-                                   <!--<button type="submit" class="form-control" id="cf-submit" name="submit">Send Message</button>-->
-                              <!--</div>-->
-                         <!--</form>-->
-                    <!--</div>-->
-
-               </div>
-          </div>
-     </section>          
-
-
-     <!-- FOOTER -->
-     <footer id="footer" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-3 col-sm-8">
-                         <div class="footer-info">
-                              <div class="section-title">
-                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Find us</h2>
-                              </div>
-                              <address class="wow fadeInUp" data-wow-delay="0.4s">
-                                   <p>Phase 3b-1, Sector-60<br>Mohali</p>
-                              </address>
-                         </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-8">
-                         <div class="footer-info">
-                              <div class="section-title">
-                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Contact</h2>
-                              </div>
-                              <address class="wow fadeInUp" data-wow-delay="0.4s">
-                                   <p>9588543375 - Ayush</p>
-                                   <p><a href="mailto:alphamotorsindia@gmail.com">alphamotorsindia@gmail.com</a></p>
-                                   <p></p>
-                              </address>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-8">
-                         <div class="footer-info footer-open-hour">
-                              <div class="section-title">
-                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Open Hours</h2>
-                              </div>
-                              <div class="wow fadeInUp" data-wow-delay="0.4s">
-                                   <p>Monday - Sunday</p>
-                                   <div>
-                                        <strong>24/7</strong>
-                                        <p></p>
-                                   </div>
-                                   <div>
-                                        <strong>7 Days a week </strong>
-                                        <p></p>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-2 col-sm-4">
-                         <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
-                              <li><a href="https://www.facebook.com/imalphamotors" target="_blank" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                              <li><a href="https://twitter.com/imalphamotors" target="_blank" class="fa fa-twitter"></a></li>
-                              <li><a href="https://www.instagram.com/alphamotors.club/" target="_blank" class="fa fa-instagram"></a></li>
-                              <li><a href="#" class="fa fa-google" target="_blank"></a></li>
-                         </ul>
-
-                         <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s"> 
-                              <p><br>Copyright &copy; 2022 <br>Alpha
-                              
-                              <br><br>Designed by: <a rel="nofollow" href="http://templatemo.com" target="_parent">Alpha Motors</a></p>
-                         </div>
-                    </div>
-                    
-               </div>
-          </div>
-     </footer>
+                            </div>
+        </div>
+                    <div class="aux-text-widget-footer">
+                <div class="aux-border-shape-none ">
+                                </div>
+            </div>
+        
+</section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+			
+        
+        
+   
 
 
-     <!-- SCRIPTS -->
-     <script src="js/jquery.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/jquery.stellar.min.js"></script>
-     <script src="js/wow.min.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/jquery.magnific-popup.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/custom.js"></script>
+				<section class="elementor-element elementor-element-aaa378e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="aaa378e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="aux-parallax-section elementor-element elementor-element-bfbd1aa elementor-column elementor-col-100 elementor-top-column" data-id="bfbd1aa" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5c57cd1 aux-appear-watch-animation aux-fade-in elementor-widget elementor-widget-aux_modern_heading" data-id="5c57cd1" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner aux-text-align-center"><h2 class="aux-modern-heading-primary">Karwaaye har jagah Prachar</h2><h3 class="aux-modern-heading-secondary"><span class="aux-head-before">Grow your brand with us call us at 7988330553, 9729710446, 9588543375</span></h3></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d6ed5a3 aux-appear-watch-animation aux-fade-in-up elementor-widget elementor-widget-aux_recent_product" data-id="d6ed5a3" data-element_type="widget" data-settings="{&quot;columns_tablet&quot;:&quot;2&quot;,&quot;columns&quot;:&quot;4&quot;,&quot;columns_mobile&quot;:&quot;1&quot;}" data-widget_type="aux_recent_product.default">
+				<div class="elementor-widget-container">
+			
+                    <!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-a79bffa aux-appear-watch-animation aux-fade-in-up elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="a79bffa" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="aux-parallax-section elementor-element elementor-element-96b2879 elementor-column elementor-col-100 elementor-top-column" data-id="96b2879" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-0a3b14f aux-appear-watch-animation aux-fade-in-down elementor-widget elementor-widget-aux_image" data-id="0a3b14f" data-element_type="widget" data-widget_type="aux_image.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-image aux-alignnone aux-parent-au098f466d" style="">
+    <div class="aux-media-hint-frame ">
+        <div class="aux-media-image ">
+        
+            
 
-</body>
-</html>
+            
+            <img width="751" height="751" src="./Nix Store_files/home-main-2.png" class="aux-attachment aux-featured-image aux-attachment-id-228" alt="O6CCQV1" data-ratio="1" data-original-w="751">            
+                </div>
+    </div>
+
+</section><!-- widget-container -->		</div>
+				</div>
+				<section class="elementor-element elementor-element-35bd6c0 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="35bd6c0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="aux-parallax-section elementor-element elementor-element-f2c4e6a elementor-column elementor-col-50 elementor-inner-column" data-id="f2c4e6a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d6264e8 aux-appear-watch-animation aux-fade-in elementor-widget elementor-widget-aux_modern_heading" data-id="d6264e8" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner "><h2 class="aux-modern-heading-primary">No Brokerage</h2><h3 class="aux-modern-heading-secondary"><span class="aux-head-before">Dream Place</span></h3><div class="aux-modern-heading-description"><p>available near radhana, omax, op jindal, etc in sonipat</p></div></div>
+        </section>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-0b23830 elementor-column elementor-col-50 elementor-inner-column" data-id="0b23830" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c0b83f6 aux-appear-watch-animation aux-fade-in-up elementor-widget elementor-widget-aux_modern_heading" data-id="c0b83f6" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner "><h2 class="aux-modern-heading-primary">Lowest Market Rate</h2><h3 class="aux-modern-heading-secondary"><span class="aux-head-before">1000+ plots</span></h3><div class="aux-modern-heading-description"><p style="font-weight:bold; font-size:20px;">7988330553, 9729710446, 9588543375</p></div></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-44b21d1 aux-appear-watch-animation aux-fade-in-up elementor-widget elementor-widget-aux_button" data-id="44b21d1" data-element_type="widget" data-widget_type="aux_button.default">
+				<div class="elementor-widget-container">
+			<a href="homes.html" target="_self" class="aux-button aux-medium aux-carmine-pink aux-curve aux-none aux-uppercase"><span class="aux-overlay"></span><span class="aux-text">View More</span></a>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+			
+        
+						</div>
+			</div>
+		</div>
+		
+        </article> <!-- end article -->
+        <div class="clear"></div>
+
+        
+        
+
+<!-- You can start editing here. -->
+
+
+    
+
+
+
+
+                    </div><!-- end content -->
+                </div><!-- end primary -->
+
+                
+            </div><!-- end container -->
+        </div><!-- end wrapper -->
+    </main><!-- end main -->
+
+    <footer class="aux-elementor-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
+        <div class="aux-wrapper">
+        <style id="elementor-post-dynamic-69">/* Start custom CSS for section, class: .elementor-element-5cf7b45 */.elementor-69 .elementor-element.elementor-element-5cf7b45 .aux-media-image {
+opacity: 0.2; 
+}
+.elementor-69 .elementor-element.elementor-element-5cf7b45 .elementor-column:hover .aux-media-image {
+opacity: 1; 
+}/* End custom CSS */
+/* Start custom CSS for aux_mailchimp, class: .elementor-element-b17ea81 */.elementor-69 .elementor-element.elementor-element-b17ea81 .mc4wp-form input[type="submit"] {
+    max-width: 137px;
+    background-color: #F42C37;
+    text-transform: capitalize;
+    letter-spacing: -0.45px;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-radius: 25px;
+    box-shadow: 0 5px 25px #F42C3740;
+    position: absolute;
+    top: 10px;
+    right: 3px;
+    
+}
+.elementor-69 .elementor-element.elementor-element-b17ea81 .mc4wp-form input[type="submit"]:hover{
+    background-color: #000!important;
+}
+.elementor-69 .elementor-element.elementor-element-b17ea81 .mc4wp-form input[type="email"]{
+  background: rgb(226,226,226);
+  background: -moz-linear-gradient(273deg, rgba(226,226,226,1) 40%, rgba(245,245,245,1) 73%);
+  background: -webkit-linear-gradient(273deg, rgba(226,226,226,1) 40%, rgba(245,245,245,1) 73%);
+  background: linear-gradient(273deg, rgba(226,226,226,1) 40%, rgba(245,245,245,1) 73%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2e2e2",endColorstr="#f5f5f5",GradientType=1);
+   border: none;
+   border-radius: 30px;
+   padding: 21px 45px 21px 40px;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.elementor-69 .elementor-element.elementor-element-b17ea81  input[type="email"]::-webkit-input-placeholder{
+   color:rgba(0,0,0,0.40);
+   font-size: 16px;
+   font-weight: 400;
+   line-height:19px;
+   font-style: normal!important;
+}
+ .elementor-69 .elementor-element.elementor-element-b17ea81  input[type="email"]::-moz-placeholder{
+  color:rgba(0,0,0,0.40);
+   font-size: 16px;
+   font-weight: 400;
+   line-height:19px;
+   font-style: normal!important;
+ }/* End custom CSS */</style>		<div data-elementor-type="footer" data-elementor-id="69" class="elementor elementor-69" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-5cf7b45 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5cf7b45" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="aux-parallax-section elementor-element elementor-element-324eee2 aux-appear-watch-animation aux-fade-in-right-1 elementor-column elementor-col-20 elementor-top-column" data-id="324eee2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ddab9b6 elementor-widget elementor-widget-aux_image" data-id="ddab9b6" data-element_type="widget" data-widget_type="aux_image.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-image aux-alignnone aux-parent-aue8bbe29f" style="">
+    <div class="aux-media-hint-frame ">
+        <div class="aux-media-image ">
+        
+            
+
+            
+                        
+                </div>
+    </div>
+
+</section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-58ec716 aux-appear-watch-animation aux-fade-in-right-1 elementor-column elementor-col-20 elementor-top-column" data-id="58ec716" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a0794c4 elementor-widget elementor-widget-aux_image" data-id="a0794c4" data-element_type="widget" data-widget_type="aux_image.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-image aux-alignnone aux-parent-auedcda7d7" style="">
+    <div class="aux-media-hint-frame ">
+        <div class="aux-media-image ">
+        
+            
+
+            
+                        
+                </div>
+    </div>
+
+</section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-cf63ae6 aux-appear-watch-animation aux-fade-in-right-1 elementor-column elementor-col-20 elementor-top-column" data-id="cf63ae6" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d6ac6c7 elementor-widget elementor-widget-aux_image" data-id="d6ac6c7" data-element_type="widget" data-widget_type="aux_image.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-image aux-alignnone aux-parent-aubf0b0dba" style="">
+    <div class="aux-media-hint-frame ">
+        <div class="aux-media-image ">
+        
+            
+
+            
+                        
+                </div>
+    </div>
+
+</section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-94d921a aux-appear-watch-animation aux-fade-in-right-1 elementor-column elementor-col-20 elementor-top-column" data-id="94d921a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-da8e253 elementor-widget elementor-widget-aux_image" data-id="da8e253" data-element_type="widget" data-widget_type="aux_image.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-image aux-alignnone aux-parent-au9710d966" style="">
+    <div class="aux-media-hint-frame ">
+        <div class="aux-media-image ">
+        
+            
+
+            
+                        
+                </div>
+    </div>
+
+</section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-8b8e158 aux-appear-watch-animation aux-fade-in-right-1 elementor-column elementor-col-20 elementor-top-column" data-id="8b8e158" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e8aae37 elementor-widget elementor-widget-aux_image" data-id="e8aae37" data-element_type="widget" data-widget_type="aux_image.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-image aux-alignnone aux-parent-au63f5e03a" style="">
+    <div class="aux-media-hint-frame ">
+        <div class="aux-media-image ">
+        
+            
+
+            
+                        
+                </div>
+    </div>
+
+</section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-4867550 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4867550" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="aux-parallax-section elementor-element elementor-element-81d2083 aux-appear-watch-animation aux-fade-in elementor-column elementor-col-25 elementor-top-column" data-id="81d2083" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a2abbcd elementor-widget elementor-widget-aux_image" data-id="a2abbcd" data-element_type="widget" data-widget_type="aux_image.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-image aux-alignnone aux-parent-auf6d1aedd" style="">
+    <div class="aux-media-hint-frame ">
+        <div class="aux-media-image ">
+        
+            
+
+            
+            <img width="124" height="18" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="aux-attachment aux-featured-image aux-attachment-id-262 aux-preload aux-blank aux-has-preload-height" alt="NIX STORE" data-ratio="6.89" data-original-w="124" data-src="http://sniccy.com/wp-content/uploads/2020/04/NIX-STORE.png" style="height: 18px;">            
+                </div>
+    </div>
+
+</section><!-- widget-container -->		</div>
+				</div>
+				<div class="elementor-element elementor-element-6355308 elementor-widget elementor-widget-aux_modern_heading" data-id="6355308" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner "><h2 class="aux-modern-heading-primary"></h2><div class="aux-modern-heading-description"><p>There are many variations passages of Lorem Ipsum available, but the majority have</p></div></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-da9ff63 elementor-widget elementor-widget-aux_icon_list" data-id="da9ff63" data-element_type="widget" data-widget_type="aux_icon_list.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-icon-list aux-parent-auf545fb0c" style=""><div class="widget-inner"><div class="aux-widget-icon-list-inner"><ul class="aux-icon-list-items aux-direction-horizontal"><li class="aux-icon-list-item aux-list-item-has-connector aux-list-item-has-icon aux-icon-list-item-7af8636 elementor-repeater-item-7af8636"><span class="aux-icon-list-icon auxicon-instagram"></span><span class="aux-list-connector"></span></li><li class="aux-icon-list-item aux-list-item-has-connector aux-list-item-has-icon aux-icon-list-item-a76ae3b elementor-repeater-item-a76ae3b"><span class="aux-icon-list-icon auxicon-linkedin"></span><span class="aux-list-connector"></span></li><li class="aux-icon-list-item aux-list-item-has-connector aux-list-item-has-icon aux-icon-list-item-0d584e4 elementor-repeater-item-0d584e4"><span class="aux-icon-list-icon auxicon-facebook"></span><span class="aux-list-connector"></span></li><li class="aux-icon-list-item aux-list-item-has-connector aux-list-item-has-icon aux-icon-list-item-ad5a2db elementor-repeater-item-ad5a2db"><span class="aux-icon-list-icon auxicon-twitter"></span><span class="aux-list-connector"></span></li></ul></div></div></section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-fd24b28 aux-appear-watch-animation aux-fade-in elementor-column elementor-col-25 elementor-top-column" data-id="fd24b28" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2b90641 elementor-widget elementor-widget-aux_modern_heading" data-id="2b90641" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner "><h2 class="aux-modern-heading-primary">Quick Links</h2></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8533daa elementor-widget elementor-widget-aux_icon_list" data-id="8533daa" data-element_type="widget" data-widget_type="aux_icon_list.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-icon-list aux-parent-au3c2d16e0" style=""><div class="widget-inner"><div class="aux-widget-icon-list-inner"><ul class="aux-icon-list-items aux-direction-vertical">
+                
+                <li class="aux-icon-list-item aux-list-item-has-connector aux-list-item-has-icon aux-icon-list-item-bcca7fd elementor-repeater-item-bcca7fd"><a class="aux-icon-list-link" href="home.html"><span class="aux-icon-list-text">Dream Place</span><span class="aux-list-connector"></span></a></li><li class="aux-icon-list-item aux-list-item-has-connector aux-list-item-has-icon aux-icon-list-item-2e26e09 elementor-repeater-item-2e26e09"><a class="aux-icon-list-link" href="http://sniccy.com/#"><span class="aux-icon-list-text">About</span><span class="aux-list-connector"></span></a></li>
+                
+                <!-- <li class="aux-icon-list-item aux-list-item-has-connector aux-list-item-has-icon aux-icon-list-item-a7886e6 elementor-repeater-item-a7886e6"><a class="aux-icon-list-link" href="http://sniccy.com/#"><span class="aux-icon-list-text">Shop</span><span class="aux-list-connector"></span></a></li> -->
+                <!-- <li class="aux-icon-list-item aux-list-item-has-connector aux-list-item-has-icon aux-icon-list-item-2cd4694 elementor-repeater-item-2cd4694"><a class="aux-icon-list-link" href="http://sniccy.com/#"><span class="aux-icon-list-text">Contact</span><span class="aux-list-connector"></span></a></li> -->
+            </ul></div></div></section><!-- widget-container -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-0efe354 aux-appear-watch-animation aux-fade-in elementor-column elementor-col-25 elementor-top-column" data-id="0efe354" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-71e417f elementor-widget elementor-widget-aux_modern_heading" data-id="71e417f" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner "><h2 class="aux-modern-heading-primary">Contact</h2></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9d91f7c elementor-widget elementor-widget-aux_modern_heading" data-id="9d91f7c" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner aux-text-align-left"><span class="aux-modern-heading-primary">+91 9599622782 
+<br>Niket Singh<br> 1239-A Maruti Vihar, Sector 28,<br>
+Gurgaon, Haryana</span></div>
+        </section>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-902bb4f elementor-column elementor-col-25 elementor-top-column" data-id="902bb4f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2a6c0a4 aux-appear-watch-animation aux-fade-in elementor-widget elementor-widget-aux_modern_heading" data-id="2a6c0a4" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner "><p class="aux-modern-heading-primary">Subscribe To Our Email</p><h3 class="aux-modern-heading-secondary"><span class="aux-head-before">For Latest News &amp; Updates</span></h3></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b17ea81 aux-appear-watch-animation aux-fade-in elementor-widget elementor-widget-aux_mailchimp" data-id="b17ea81" data-element_type="widget" data-widget_type="aux_mailchimp.default">
+				<div class="elementor-widget-container">
+			<script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.7.5 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-183" method="post" data-id="183" data-name=""><div class="mc4wp-form-fields"><p>
+	<label>
+		<input type="email" name="EMAIL" placeholder="Enter Your Email" required="">
+</label>
+</p>
+
+<p>
+	<input type="submit" value="Subscribe">
+</p></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1587205278"><input type="hidden" name="_mc4wp_form_id" value="183"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-c7ed88d elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="c7ed88d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="aux-parallax-section elementor-element elementor-element-971597e elementor-column elementor-col-50 elementor-top-column" data-id="971597e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-db3dcb8 elementor-widget elementor-widget-aux_modern_heading" data-id="db3dcb8" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner "><p class="aux-modern-heading-primary">© 2020 shop-digital - All Rights Reserved. 
+Niket Singh</p></div>
+        </section>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="aux-parallax-section elementor-element elementor-element-1df32fb elementor-column elementor-col-50 elementor-top-column" data-id="1df32fb" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e0bd0a4 elementor-widget elementor-widget-aux_modern_heading" data-id="e0bd0a4" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner aux-text-align-right"><p class="aux-modern-heading-primary">Privacy Policy  .  Term Condition</p></div>
+        </section>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		        </div><!-- end of wrapper -->
+    </footer><!-- end footer -->
+
+</div><!--! end of #inner-body -->
+
+    <div class="aux-hidden-blocks">
+
+        <section id="offmenu" class="aux-offcanvas-menu aux-pin-left">
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="offcanvas-header">
+            </div>
+            <div class="offcanvas-content">
+            </div>
+            <div class="offcanvas-footer">
+            </div>
+        </section>
+        <!-- offcanvas section -->
+
+        <section id="offcart" class="aux-offcanvas-menu aux-offcanvas-cart aux-pin-left" style="display: none;">
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="offcanvas-header">
+                Shopping Basket            </div>
+            <div class="aux-cart-wrapper aux-elegant-cart aux-offcart-content">
+            <div class="aux-card-dropdown  aux-modern-dropdown">
+                    <div class="aux-card-box">            <div class="aux-card-item" data-product-id="204">
+                <div class="aux-card-item-img">
+                <img width="150" height="150" src="./Nix Store_files/Group-1273-768x576-1-150x150.jpg" class="aux-attachment aux-featured-image attachment-150x150 aux-attachment-id-270 " alt="Group-1273-768x576" srcset="http://sniccy.com/wp-content/uploads/2019/09/Group-1273-768x576-1-150x150.jpg 150w,http://sniccy.com/wp-content/uploads/2019/09/Group-1273-768x576-1-300x300.jpg 300w,http://sniccy.com/wp-content/uploads/2019/09/Group-1273-768x576-1-150x150.jpg 150w" data-ratio="1" data-original-w="768" sizes="(max-width:479px) 480px,(max-width:767px) 768px,(max-width:1023px) 1024px,150px">                </div>
+                <div class="aux-card-item-details">
+                    <a class="aux-item-permalink" href="http://sniccy.com/index.php/product/beats-2/">
+                        <h3>Beats</h3>
+                    </a>
+                    <span>
+                        1 × <del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₹</span>11,950.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₹</span>9,950.00</span></ins>                    </span>
+                    <a href="http://sniccy.com/index.php/cart/?remove_item=274ad4786c3abca69fa097b85867d9a4&amp;_wpnonce=d7fca7973e" class="aux-remove-cart-content aux-svg-symbol aux-small-cross aux-black" data-verify_nonce="ed7c57758f" data-product_id="204"></a>
+                </div>
+            </div>
+</div>        <div class="aux-inline-card-checkout">
+                        <div class="aux-card-final-amount aux-cart-subtotal">
+            Sub Total<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₹</span>9,950.00</span>            </div>
+            <div class="aux-button-wrapper">
+                                <a href="http://sniccy.com/index.php/checkout/" class="aux-button aux-checkout-button aux-large aux-black aux-uppercase">
+                    <span class="aux-overlay"></span>
+                    <span class="aux-text">Proceed to checkout</span>
+                </a>
+                <a href="http://sniccy.com/index.php/cart/" class="aux-button aux-cart-button aux-large aux- aux-black aux-outline aux-uppercase">
+                    <span class="aux-overlay"></span>
+                    <span class="aux-text">View Cart</span>
+                </a>
+            </div>
+        </div>
+                        </div></div>
+        </section>
+        <!-- cartcanvas section -->
+
+                <section id="fs-menu-search" class="aux-fs-popup  aux-fs-menu-layout-center aux-indicator">
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="aux-fs-menu">
+                        </div>
+            <div class="aux-fs-search">
+                <div class="aux-search-section ">
+                <div class="aux-search-form ">
+            <form action="http://sniccy.com/" method="get">
+            <div class="aux-search-input-form">
+                            <input type="text" class="aux-search-field" placeholder="Type here.." name="s" autocomplete="off">
+                                    </div>
+                            <input type="submit" class="aux-black aux-search-submit aux-uppercase" value="Search">
+                        </form>
+        </div><!-- end searchform -->
+                </div>
+
+            </div>
+        </section>
+        <!-- fullscreen search and menu -->
+                <section id="fs-search" class="aux-fs-popup aux-search-overlay  has-ajax-form">
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="aux-search-field">
+
+            <div class="aux-search-section aux-404-search">
+                <div class="aux-search-form aux-iconic-search">
+            <form action="http://sniccy.com/" method="get">
+            <div class="aux-search-input-form">
+                            <input type="text" class="aux-search-field" placeholder="Search..." name="s" autocomplete="off">
+                                    </div>
+                            <div class="aux-submit-icon-container auxicon-search-4 ">
+                    <input type="submit" class="aux-iconic-search-submit" value="Search">
+                </div>
+                        </form>
+        </div><!-- end searchform -->
+                </div>
+
+            </div>
+        </section>
+        <!-- fullscreen search-->
+
+        <div class="aux-scroll-top"></div>
+    </div>
+
+    <div class="aux-goto-top-btn aux-align-btn-right" data-animate-scroll="1" style="display: block; transform: translateY(150px);"><div class="aux-hover-slide aux-arrow-nav aux-round aux-outline">    <span class="aux-overlay"></span>    <span class="aux-svg-arrow aux-h-small-up"></span>    <span class="aux-hover-arrow aux-svg-arrow aux-h-small-up aux-white"></span></div></div>
+<!-- outputs by wp_footer -->
+<script>(function() {function maybePrefixUrlField() {
+	if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if (urlFields) {
+	for (var j=0; j < urlFields.length; j++) {
+		urlFields[j].addEventListener('blur', maybePrefixUrlField);
+	}
+}
+})();</script>	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<link rel="stylesheet" id="elementor-post-69-css" href="./Nix Store_files/post-69.css" type="text/css" media="all">
+<script type="text/javascript" src="./Nix Store_files/imagesloaded.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/masonry.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/plugins.min.js.download"></script><div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button><button class="pswp__button pswp__button--share" title="Share"></button><button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button><button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div> </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button><button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div>
+<script type="text/javascript" src="./Nix Store_files/widgets.js.download"></script>
+<script type="text/javascript">
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type="text/javascript" src="./Nix Store_files/mediaelement-and-player.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/mediaelement-migrate.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Nix Store_files/wp-mediaelement.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/plugins.min.js(1).download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var auxin_cart_options = {"title":"","css_class":"aux-cart-element aux-cart-type-dropdown aux-basket-animation","dropdown_class":" aux-modern-dropdown","color_class":"aux-black","action_on":"hover","cart_url":"#","dropdown_skin":"light","icon":"auxicon-handbag","size":"thumbnail","simple_mode":"1","basket_animation":"1","cart_header_text":null,"total_price_text_in_dropdown":"Sub Total","width":null,"height":null};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Nix Store_files/scripts.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/34.93.249.214\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Nix Store_files/scripts.js(1).download"></script>
+<script type="text/javascript" src="./Nix Store_files/jquery.blockUI.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/34.93.249.214\/index.php\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Nix Store_files/add-to-cart.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/js.cookie.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Nix Store_files/woocommerce.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_6eba0b6758f03ec17d92fd3a1e57ddb9","fragment_name":"wc_fragments_6eba0b6758f03ec17d92fd3a1e57ddb9","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Nix Store_files/cart-fragments.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wp_ulike_params = {"ajax_url":"http:\/\/34.93.249.214\/wp-admin\/admin-ajax.php","notifications":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Nix Store_files/wp-ulike.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/scripts.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/custom.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/wp-embed.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/forms.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/frontend-modules.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/position.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/dialog.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/waypoints.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/swiper.min.js.download"></script>
+<script type="text/javascript" src="./Nix Store_files/share-link.min.js.download"></script>
+<script type="text/javascript">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","downloadImage":"Download image"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.9.7","urls":{"assets":"http:\/\/34.93.249.214\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_lightbox_enable_counter":"yes","elementor_lightbox_enable_fullscreen":"yes","elementor_lightbox_enable_zoom":"yes","elementor_lightbox_enable_share":"yes","elementor_lightbox_title_src":"title","elementor_lightbox_description_src":"description"},"editorPreferences":[]},"post":{"id":211,"title":"Nix%20Store","excerpt":"","featuredImage":false}};
+</script>
+<script type="text/javascript" src="./Nix Store_files/frontend.min.js.download"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+<!-- end wp_footer -->
+
+
+</body></html>
